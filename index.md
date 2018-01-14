@@ -10,12 +10,13 @@ Before I start.
 # Content List:
 * [What Classes Do I have to Take?](prereqs.md)
 
-## This website is for people who:
+## This website is for people who (but not limited to) :
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
 2. Nearing graduation and want to pursue a DS/Stats Masters after graduation for financial purposes
 3. Want to have a successful transition into a DS or Stats Masters
 4. Don't feel comfortable programming
 5. Don't feel comfortable with math and statistics
+6. Under-privileged folks who have tried to learn DS on their own but feel like they need a Master's degree (credibility on a resume) to more easily make the leap into a DS job
 
 ## This website is made by me! Angel D'az [Twitter](https://twitter.com/angeld_az):
 I graduated with a Business and Economic Analytics B.S. and Computer Science minor from Boise State University Fall 2017.
