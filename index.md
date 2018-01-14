@@ -7,6 +7,10 @@ Before I start.
 
 > If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
 
+# Content Table:
+Topic | Link
+------------ | -------------
+What Classes Do I have to Take? | [link](prereqs.md)
 
 ## This website is for people who:
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
@@ -26,7 +30,7 @@ I am probably about 20% of the way on that bridge and want to help you take step
 in graduate school. I will focus on preparing you for a more professional/practical Masters degree rather than a pure math
 Statistics degree.
 
-## Topics we will cover (but not limited to):
+### Topics we will cover (but not limited to):
 1. Programming languages such as Python and R
 2. How to even get started using these programming languages
 3. Fundamental statistics such as; T-tests, linear regression, logistic regression
@@ -38,7 +42,7 @@ Statistics degree.
 9. The meaning of life
 10. Fundamental Linux/Unix shell command line stuff
 
-## Topics we will *not* cover:
+### Topics we will *not* cover:
 1. Why Latina women love The Smiths, 80s British rock group, so much
 2. How to get a Data Science job
 
@@ -46,7 +50,4 @@ Statistics degree.
 - I barely scraped by my classes
 and
 - I know this very well and could teach it
-
-### The first video I will make will cover what classes do I even need to take?
-[here:](prereqs.md)
 
