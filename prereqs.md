@@ -1,7 +1,7 @@
-# Pre-requirements. The classes you have to take to get accepted
+# Pre-requirements. The classes you typically have to take, to get accepted.
 > However, they are co-requirements for the material we will be covering. You don't need to have taken any classes to follow along to future videos.
 
-[![Video](https://img.youtube.com/watch?v=bQwryJPHtzY/0.jpg)](https://www.youtube.com/watch?v=bQwryJPHtzY)
+[Here is the video. Unfortunately I cannot embed it in GitHub pages.](https://www.youtube.com/watch?v=bQwryJPHtzY)
 
 ## If you want to save 10 minutes; here are the classes that are commonly required across many programs.
 
