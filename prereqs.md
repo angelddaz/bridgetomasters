@@ -12,8 +12,9 @@
 
 Depending on your situation, this may be 5 - 9 classes. It's a long road but one worth taking.
 
-### Note 1: I say in the video that you "have to" take the GRE. Not all programs require this test. I meant to say that you "typically have to take" this test.
+Notes: 
+* I say in the video that you "have to" take the GRE. Not all programs require this test. I meant to say that you "typically have to take" this test.
 
-### Note 2: I mention "Experience with R" when looking at Boston University requirements. R is a statistical programming language we will cover later.
+* I mention "Experience with R" when looking at Boston University requirements. R is a statistical programming language we will cover later.
 
-p.s. Remember that College Algebra and Trigonometry are pre-requisites to Calculus 1.
+* Remember that College Algebra and Trigonometry are pre-requisites to Calculus 1.
