@@ -47,5 +47,6 @@ Statistics degree.
 and
 - I know this very well and could teach it
 
-### The first video I will make will cover what classes do I even need to take???
+### The first video I will make will cover what classes do I even need to take?
+[here:](prereqs.md)
 
