@@ -40,9 +40,11 @@ Statistics degree.
 9. The meaning of life
 10. Fundamental Linux/Unix shell command line stuff
 
-### Topics we will *not* cover:
+### Topics we will *probably not* cover:
 1. Why Latinx women love The Smiths, 80s British rock group, so much
 2. How to get a Data Science job
+3. Advanced algorithms and the fine details of them
+4. Proofs
 
 ### Note: my knowledge of these topics range from
 - I barely scraped by my classes
