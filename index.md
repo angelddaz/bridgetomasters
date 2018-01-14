@@ -7,10 +7,8 @@ Before I start.
 
 > If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
 
-# Content Table:
-Topic | Link
------------- | -------------
-What Classes Do I have to Take? | [link](prereqs.md)
+# Content List:
+* [What Classes Do I have to Take?](prereqs.md)
 
 ## This website is for people who:
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
