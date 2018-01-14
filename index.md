@@ -43,7 +43,7 @@ Statistics degree.
 10. Fundamental Linux/Unix shell command line stuff
 
 ### Topics we will *not* cover:
-1. Why Latina women love The Smiths, 80s British rock group, so much
+1. Why Latinx women love The Smiths, 80s British rock group, so much
 2. How to get a Data Science job
 
 ### Note: my knowledge of these topics range from
