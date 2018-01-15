@@ -7,12 +7,12 @@ Before I start.
 
 > If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
 
-# Content Drop-Downs:
+# Click Drop-Downs for Content:
 <details>
 <summary>Class Pre-Requisites</summary>
 <br>
   <dl>
-  Click <a href="https://angelddaz.github.io/bridgetomasters/prereqs.html">What Classes Do I have to Take?</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/prereqs.html">What Classes Do I have to Take?</a> 
   </dl>
 </details>
 
