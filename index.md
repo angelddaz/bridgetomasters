@@ -16,6 +16,14 @@ Before I start.
   </dl>
 </details>
 
+<details>
+<summary>Feelings on Transition into Data</summary>
+<br>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/story.html">My Story</a> 
+  </dl>
+</details>
+
 ## This website is for people who (but not limited to) :
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
 2. Nearing graduation and want to pursue a DS/Stats Masters after graduation for financial purposes
