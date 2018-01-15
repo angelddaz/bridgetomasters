@@ -24,6 +24,10 @@ I was a music major for three years before deciding to not do music. I wasn't su
 I feel like I scraped by a lot of my math and computer science courses. I also feel like I know ETL, scripting, and databases,
 relatively well.
 
+I am currently a database engineer at a startup in Boise. I have no concrete plans of getting a Master's degree in the next few years.
+It's one of those things that I figure I will be getting eventually but no set in stone timeline. I am making this for myself but 
+also for my brother, who graduated with an Education B.S. and would benefit from this content.
+
 If you can imagine a bridge that takes you from an "unrelated" field such as music to a Data Science Masters degree;
 I am probably about 20% of the way on that bridge and want to help you take steps so that you have a successful two years
 in graduate school. I will focus on preparing you for a more professional/practical Masters degree rather than a pure math
