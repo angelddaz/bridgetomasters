@@ -11,7 +11,9 @@ Before I start.
 <details>
 <summary>Class Pre-Requisites</summary>
 <br>
-[What Classes Do I have to Take?](prereqs.md)
+  <dl>
+  Click <a href="https://angelddaz.github.io/bridgetomasters/prereqs.html">What Classes Do I have to Take?</a> 
+  </dl>
 </details>
 
 ## This website is for people who (but not limited to) :
