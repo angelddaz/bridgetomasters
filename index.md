@@ -17,7 +17,7 @@ Before I start.
 </details>
 
 <details>
-<summary>Feelings on Transition into Data</summary>
+<summary>Feelings on Moving into Data</summary>
 <br>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/story.html">My Story</a> 
