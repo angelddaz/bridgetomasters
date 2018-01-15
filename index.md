@@ -7,8 +7,12 @@ Before I start.
 
 > If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
 
-# Content List:
-* [What Classes Do I have to Take?](prereqs.md)
+# Content Drop-Downs:
+<details>
+<summary>Class Pre-Requisites</summary>
+<br>
+[What Classes Do I have to Take?](prereqs.md)
+</details>
 
 ## This website is for people who (but not limited to) :
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
