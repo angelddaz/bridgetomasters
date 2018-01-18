@@ -1,3 +1,4 @@
+# <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 # Pre-requirements. The classes you typically have to take, to get accepted.
 > However, they are co-requirements for the material we will be covering. You don't need to have taken any classes to follow along to future videos.
 
