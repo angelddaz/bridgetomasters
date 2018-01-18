@@ -4,6 +4,8 @@ name: Bridge to Masters
 
 description: Attempting to Democratize Graduate level Math and Programming
 
-author: Angel D'az
-
-author_email: angelddaz@gmail.com
+author : 
+  name : Angel D'az
+  email : angelddaz@gmail.com
+  github : angelddaz
+  twitter : angeld_az
