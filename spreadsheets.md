@@ -17,7 +17,8 @@ I will upload a video soon of me working with my transcript as a dataset.
 Feel free to download it and poke around before the video is up.
 
 Notes:
-* You can use Microsoft Excel or go to [sheets](sheets.google.com) to analyze this dataset
+* You can use Microsoft Excel or go to <a href="https://docs.google.com/spreadsheets/">Google Sheets</a> to analyze this dataset.
+* Excel typically costs money, while a Google account is free, so I will be using Google Sheets in the video.
 * I am trying to figure out how to make a download button in markdown but for now, you can highlight copy and paste all the cells. That's
 kind of a pain. You can also click on the button "Raw" on the top right of the dataset, then right click anywhere on the screen, then
 click "Save as..." to save the file on your computer.
