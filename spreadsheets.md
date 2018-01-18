@@ -4,6 +4,7 @@ We aren't going to go super deep into them but they're a good starting point bec
 the scenes. Programming languages that we'll get into soon are the other way around; you see the code and the data is behind the scene.
 
 Spreadsheets are generally frowned upon by more high tech people for several issues that aren't super important right now.
+There are a lot of people who would recommend starting off the hard way. Just start learning R or Python. I'm more a big tent, slow is good, data practicioner and teacher. It's how I taught music and how I plan to teach data.
 
 ## I think it's more important that, as a beginner into the world of data, you *see* the data and how it can move and change with your clicks and typing.
 
