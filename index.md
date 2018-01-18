@@ -8,6 +8,15 @@ Before I start.
 > If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
 
 # Click Drop-Downs for Content:
+
+<details>
+<summary>Technical Videos</summary>
+<br>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/spreadsheets.html">Transcript dataset+Spreadsheets</a> 
+  </dl>
+</details>
+
 <details>
 <summary>Class Pre-Requisites</summary>
 <br>
