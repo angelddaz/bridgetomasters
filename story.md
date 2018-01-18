@@ -1,3 +1,4 @@
+# <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 # Normally we'd be downloading software at this point but instead we're going to talk about feelings
 
 When I taught trombone, I would always ask students what they wanted in their first lessons. So my question for you is what do you want? Assuming you want to switch into a data career from an arts, humanities, or science background; why?
