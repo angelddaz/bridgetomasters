@@ -1,3 +1,9 @@
+---
+layout: page
+title: bridge to masters
+tagline: Attempting to Democratize Graduate level Math and Programming
+---
+
 # Welcome to the Bridge To Data Science / Statistics Masters project
 
 Before I start.
