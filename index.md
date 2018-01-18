@@ -73,9 +73,3 @@ Statistics degree.
 2. How to get a Data Science job
 3. Advanced algorithms and the fine details of them
 4. Proofs
-
-### Note: my knowledge of these topics range from
-- I barely scraped by my classes
-and
-- I know this very well and could teach it
-
