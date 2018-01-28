@@ -23,7 +23,7 @@ You can also click on the picture directly below.](https://youtu.be/zuwghC49xiQ)
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 # Main takeaways:
-1. "Real world" data and data analysis is rarely fancier than this. Don't discount training on small datasets.
+1. "Real world" data and data analysis is rarely fancier than this. Don't discount beginner training on small datasets as anything but real analysis and real data.
 2. Do not try to memorize the spreadsheet formulas we use; (SUMIF, LEFT, RIGHT, etc.)
 * The much more important hurdle (than memorizing formulas or functions) is being able to ask the right question in Google or to people who know the programming language/software. It takes a while to get there but you can do it!
 3. Bad quality data collection is a lot of times in balance with time, money, or effort.
