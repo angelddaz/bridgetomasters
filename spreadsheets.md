@@ -16,7 +16,7 @@ Pretty soon, we'll work with this dataset but with the programming languages tha
 [Download the dataset here.csv](./transcript_dataset.csv)
 
 [Here is the video. Unfortunately I cannot embed it in GitHub pages.
-You can also click on the picture directly below.](https://youtu.be/zuwghC49xiQ)
+Please feel free to copy the steps I go through like a sing a long.](https://youtu.be/zuwghC49xiQ)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=zuwghC49xiQ
 " target="_blank"><img src="http://img.youtube.com/vi/zuwghC49xiQ/0.jpg" 
