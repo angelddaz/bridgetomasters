@@ -33,6 +33,14 @@ Before I start.
   </dl>
 </details>
 
+<details>
+<summary>Opinioninated Blog Posts</summary>
+<br>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/structure_and_creativity.html">Structure and Creativity</a> 
+  </dl>
+</details>
+
 ## This website is for people who (but not limited to) :
 1. Graduated in the arts, humanities, science, etc. and want to pursue a Data Science (DS) or Statistics (Stats) Masters.
 2. Nearing graduation and want to pursue a DS/Stats Masters after graduation for financial purposes
