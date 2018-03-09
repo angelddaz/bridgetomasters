@@ -26,6 +26,7 @@ In order to figure out which notes are easy to handle; a music theory primer:
 There are 12 notes in Western Music harmony. With this bag of 12 notes, how do we pick out the ones that are easy 
 to handle for beginners?
 
+![Chromatic Scale which includes all 12](http://www.musicreadingsavant.com/wp-content/uploads/2012/01/The-Chromatic-Scale1.gif)
 
 Let’s say we are in major key "Do" (pronounced like "Dough") much like generalizing math problems with "n". 
 The major scale from the "Do" key is a good starting point to picking "good" sounding notes; 
@@ -39,6 +40,9 @@ that will give us 7 out of 12 possible notes.
 6. La
 7. Ti
 8. Do
+
+![Major Scale](https://www.becomesingers.com/wp-content/uploads/2017/01/Solfege-Chart.jpg)
+
 
 The 8th note is a repetition of the first note but an octave higher. *Side note: double the physical wavelength.*
 
@@ -66,7 +70,7 @@ monotone improvisation can be super boring to play and to listen to. It would be
 
 In improvisations, you repeat choruses, or cycles of repeated chord progressions. 
 Here’s an example of how I would impose structure while learning and teaching jazz improvisation. 
-Each one of these is a chorus, or cycle through the chords:
+Each one of these is a chorus, or cycle through the chords, adding up to 4 choruses:
 
 * Only Do - Mi - Sol notes
 * Only long notes
