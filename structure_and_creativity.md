@@ -102,15 +102,17 @@ judgment in how to structure or focus your analysis at each step.
 
 1. limit yourself to do one thing at a time as well as you can.
 
-..* I am 100 percent guilty to stopping my data wrangling because I'm distracted by an outlier 
+  * I am 100 percent guilty to stopping my data wrangling because I'm distracted by an outlier 
 and then stopping that because I get distracted by something else. It’s best to finish what you were doing, 
 possibly make a note of the distraction to get to it after you are done.
 
 2. Intersperse your work with free-form analysis.
-..* No expectations, flow of consciousness type of analysis. Structured work all the time is a bit like living your life like a machine.
+
+  * No expectations, flow of consciousness type of analysis. Structured work all the time is a bit like living your life like a machine.
 
 3. Take a Bob Ross approach to mistakes.
-..* New mistakes are a sign of growth and are a gateway to creativity.
+
+  * New mistakes are a sign of growth and are a gateway to creativity.
 
 Structure and creativity seemingly two opposite sides of a coin, but I believe that structure in one 
 dimension frees you up for creativity in another.
