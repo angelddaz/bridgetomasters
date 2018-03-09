@@ -53,12 +53,12 @@ To narrow down our bag of easy notes even further, we use tertian harmony, which
 This means that every third note stacked on each other will make what we know as major or minor chords. Now we only keep:
 1. Do
 3. Mi
-5. Sol
+5. So
 7. Ti
 
 If we wanted to use only extremely safe notes, I would structure the limits of an improvisational cycle.
 1. Do
-5. Sol
+5. So
 
 Which are the first two unique notes in the physical overtone series.
 
