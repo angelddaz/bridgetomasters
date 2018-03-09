@@ -13,8 +13,11 @@ I will in terms of data analysis, having lived through developing jazz improvisa
 
 Jazz improvisation is, for the most part, it’s the spontaneous creation of melodic lines on top of a structure of chords and tempo. 
 Despite the spontaneity, there is a lot of structure working in the background. Many hours of rehearsal and repetition. 
-There is a motto that I think is very true; learn the rules like a master, so that you can break them like an artist. 
-Easier said than done. It takes a lot of patience and resources to learn the rules like a master. 
+There is a motto I often heard in the music world that I think is very true; 
+
+### *learn the rules like a master, so that you can break them like an artist.*
+
+Easier said than done. It takes an unusual (in my opinion) amount of patience and resources to learn the rules like a master. 
 In data analysis this would be; databases, linear algebra, statistics, probability, algorithms, etc. 
 
 ## I will focus on one aspect of improvisation, the harmony. 
