@@ -97,9 +97,10 @@ When starting out data analysis, it feels like there’s so much to juggle in yo
 Or there can also be full-stack anxiety. So much to learn; Python, R, databases, SQL, GQL, Hadoop, Spark, Data wrangling, etc.
 I think it’s best to structure your focus as much as possible without boring yourself.
 
-## What does this all mean for data analysis:
+### What does this all mean for data analysis:
 
 There’s no repeating choruses in data analysis.
+
 However, there are iterations and repetitive data wrangling or analysis processes you can apply the following to. 
 
 ## My call to action, is to take a mindful approach to data analysis. 
