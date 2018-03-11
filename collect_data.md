@@ -14,5 +14,5 @@ Please feel free to copy the steps I go through like it is a sing a long.](https
 Maybe you feel like Harold here. I feel like Harold when people give me the same advice repeatedly but I don't know how to even start.
 ![yayaya](http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg)
 
-It's good advice but I want to break it down to the basic first steps for arts, humanities, science, folks who may not know where to start. Like always, please let me know if I miss something or if there's something you'd like me to answer on: <a href="https://twitter.com/angeld_az/"> my Twitter </a>
+It's good advice but I want to break it down to the basic first steps for arts, humanities, science, folks who may not know where to start. If you have an idea for how to easily collect data, please feel free to share! Like always, please let me know if I miss something or if there's something you'd like me to answer on: <a href="https://twitter.com/angeld_az/"> my Twitter </a>
 
