@@ -8,10 +8,8 @@ If you've spent any time in the data science learning world, you've probably hea
 ### Just start analyzing data, there's so much data out there, you could easily collect your own!
 
 [Here is the video. Unfortunately I cannot embed it in GitHub pages.
-Please feel free to copy the steps I go through like a sing a long.](https://youtu.be/qzhRYdwvrSE)
+Please feel free to copy the steps I go through like it is a sing a long.](https://youtu.be/qzhRYdwvrSE)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=qzhRYdwvrSE
-" target="_blank"></a>
 
 Maybe you feel like Harold here. I feel like Harold when people give me the same advice repeatedly but I don't know how to even start.
 ![yayaya](http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg)
