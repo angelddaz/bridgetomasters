@@ -15,6 +15,10 @@ Before I start.
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/spreadsheets.html">Transcript dataset+Spreadsheets</a> 
   </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/collect_data.html">How to Collect Your Own Data</a> 
+  </dl>
+  
 </details>
 
 <details>
