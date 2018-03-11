@@ -1,1 +1,18 @@
+# <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
+If you've spent any time in the data science learning world, you've variations of the following heard:
+### Create your own data analysis project!
+### Start your own data analysis project to learn data science!
+### Create your own data analysis project!
+
+Maybe you feel like Harold here. My face when people keep giving me the same advice but I don't know how to even start
+![yayaya](http://i0.kym-cdn.com/entries/icons/original/000/016/546/hidethepainharold.jpg)
+
+It's good advice but I want to break it down to the basic first steps for arts, humanities, science, folks who may not know where to start. Like always, please let me know if I miss something or if there's something you'd like me to answer on: <a href="https://twitter.com/angeld_az/"> my Twitter </a>
+
+[Here is the video. Unfortunately I cannot embed it in GitHub pages.
+Please feel free to copy the steps I go through like a sing a long.](https://youtu.be/zuwghC49xiQ)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=zuwghC49xiQ
+" target="_blank"><img src="http://img.youtube.com/vi/zuwghC49xiQ/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
