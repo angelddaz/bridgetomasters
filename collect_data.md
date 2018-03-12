@@ -16,3 +16,6 @@ Maybe you feel like Harold here. I feel like Harold when people give me the same
 
 It's good advice but I want to break it down to the basic first steps for arts, humanities, science, folks who may not know where to start. If you have an idea for how to easily collect data, please feel free to share! Like always, please let me know if I miss something or if there's something you'd like me to answer on: <a href="https://twitter.com/angeld_az/"> my Twitter </a>
 
+### Notes:
+1. [Not So Standard Deviations podcast](http://nssdeviations.com/)
+2. When I try to figure out the link to the survey, there's a permalink button next to the email button. Either way works.
