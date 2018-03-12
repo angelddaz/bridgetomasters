@@ -7,8 +7,8 @@ If you've spent any time in the data science learning world, you've probably hea
 ### Start your own data analysis project to learn data science!
 ### Just start analyzing data, there's so much data out there, you could easily collect your own!
 
-[Here is the video. Unfortunately I cannot embed it in GitHub pages.
-Please feel free to copy the steps I go through like it is a sing a long.](https://youtu.be/qzhRYdwvrSE)
+[Here is the video where I explain two ways to collect data to get follow the advice above. Unfortunately I cannot embed it in GitHub pages.
+Please feel free to copy the steps I go through like it's a sing a long.](https://youtu.be/qzhRYdwvrSE)
 
 
 Maybe you feel like Harold here. I feel like Harold when people give me the same advice repeatedly but I don't know how to even start.
