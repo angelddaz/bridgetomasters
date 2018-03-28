@@ -4,12 +4,12 @@
 03/28/2018
 
 ### Growing up I only knew mechanics, electricians, roofers, construction workers.
-So when I changed to a Business Analytics major, all of a sudden, I was being told I needed an internship in order to be successful. I was a first-generation college student and had zero family or long-time friends in Boise with me. Not only did I not have any experience in professional written communication, I had to send out a lot of emails and ask without leverage or familiarity from people. 
+So when I changed to a Business Analytics major, all of a sudden, I was being told I needed an internship in order to be successful. I was a first-generation college student and had zero family or long-time friends in Boise with me. Not only did I not have any experience in professional written communication, I had to send out a lot of emails and ask things of people without leverage or familiarity.
 
 *As a side note - this is why I try to take a nuanced perspective on cold asks. When you don't know anybody in the business you're trying to get into, you have to find and create excuses to meet people. IMO Cold asks get into dangerous territory when what you're asking for is disproportionate to the rapport. People draw that line at different places.*
 
 I had a 1.5 year long search for a paid internship and managed to get 3 over the next 2 years. Most recently, I got a great entry level Support Data Engineer job. I'll be using personal e-mails from my search for an internship as examples. Disclaimer: I run the risk of fixing what ain't broke, for a few reasons: 
-1. I am pretty happy with my what I've achieved
+1. I am pretty happy with what I've achieved
 2. Earnest unprofessionalism/amateurism can be endearing (not to everybody)
 
 I got the idea of writing this when I was helping my little brother who is in high school, apply for some scholarships. This question "Why are you interested?" kept popping up.
