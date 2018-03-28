@@ -1,5 +1,6 @@
 # Written Communication Tips for First-Gen Students of Color
 03/28/2018
+
 ### Growing up I only knew mechanics, electricians, roofers, construction workers.
 So when I changed to a Business Analytics major, all of a sudden, I was being told I needed an internship in order to be successful. I was a first-generation college student and had zero family or long-time friends in Boise with me. Not only did I not have any experience in professional written communication, I had to send out a lot of emails and ask without leverage or familiarity from people. 
 
@@ -11,7 +12,7 @@ I had a 1.5 year long search for a paid internship and managed to get 3 over the
 
 I got the idea of writing this when I was helping my little brother who is in high school, apply for some scholarships. This question "Why are you interested?" kept popping up.
 
-#### 1. Be straightforward.
+## 1. Be straightforward.
 Here's a a warm* intro a professional wrote for me and a local tech CEO.
 ```
 ___ceo___,
@@ -51,7 +52,7 @@ Angel D'az
 ```
 Before this meeting, I was in: *"Let's meet and I won't ask for anything other than your wisdom." mode* Which opened quite a few doors. However, the warm introduction signaled that it was time to switch into: *"I am here to sell." mode* In this scenario, it would have been better to just state the reason I want to meet. It can be disingenious to ignore the real reason you're emailing someone.
 
-#### 2. Be concise. Keep your sentences short.
+## 2. Be concise. Keep your sentences short.
 Here's another email from when I was a Finance major, trying to get my foot in the door at a local company by cold-emailing a guest speaker at our finance/accounting club. This was a reply to first contact from this company. The earnestness and long-windedness makes me smile and cringe slightly but in white-collar American culture, conciseness is politeness. I think I was trying to show my excitement as a proxy for passion.
 
 ```
@@ -85,7 +86,7 @@ However, I am flexible to shadow anywhere from an hour to a few hours at your co
 Thank you,
 Angel
 ```
-#### 3. Be confident
+## 3. Be confident
 I don't have an e-mail example for this one. A tricky and common question is; **why are you interested?**
 I think it's good to answer this with the following structure:
 ```
@@ -94,7 +95,7 @@ Also because, (It's a win for you and here's why.)
 ```
 Remember to be specific when describing the opportunity. It shows that you're not writing boilerplate. It's totally ok to follow templates like the one I just wrote, but the content should be as specific to you as a person as you balance conciseness and straightforwardness.
 
-#### 4. Don't be afraid to follow-up
+## 4. Don't be afraid to follow-up
 Everyone is busy. Sometimes a short follow-up is welcome but you can't know if you never try.
 Here are some guidelines I try to follow when it comes to follow-ups:
 1. I usually wait at least two weeks from first contact
@@ -103,7 +104,7 @@ Here are some guidelines I try to follow when it comes to follow-ups:
 4. Multiple medium (e-mail, in-person, Twitter) points of contact **(not all asking)** work so much better to kindly nudge people to respond, than an annoying one-sided conversation *("Hi! Hello?! Notice me! Hi!)* on a single medium.
 5. It bears repeating; strongly consider dropping lines of inquiry if you're getting no response after a single follow-up.
 
-#### 5. Save templates you like
+## 5. Save templates you like
 Here is a great [job pitch template](https://pastebin.com/uAGvD4u9) made by [Stephanie Hurlburt](https://twitter.com/sehurlburt/).
 Her [pastebin account](https://pastebin.com/u/shurlburt) has lots of great advice and some other templates to steal.
 
