@@ -43,6 +43,10 @@ Before I start.
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/structure_and_creativity.html">Structure and Creativity</a> 
   </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/email_comm.html">Written Communication Tips for First-Gen</a> 
+  </dl>
+  
 </details>
 
 ## This website is for people who (but not limited to) :
