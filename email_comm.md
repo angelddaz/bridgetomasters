@@ -110,5 +110,8 @@ Her [pastebin account](https://pastebin.com/u/shurlburt) has lots of great advic
 
 Remember that although the template might not be original, the content within in the template should be specific and original to you.
 
+
+### Notes:
 * *warm means there rapport or familiarity built up ahead of the event*
 * *a pitch is a bid or ask*
+* *That would make a cold pitch asking a high school friend I haven't talked to in 5 years for a ride to the airport.*
