@@ -46,6 +46,8 @@ Before I start.
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/email_comm.html">Written Communication Tips for First-Gen</a> 
   </dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/nyr2018.html">NY R Conference 2018 thoughts</a> 
+  </dl>
   
 </details>
 
