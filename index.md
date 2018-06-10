@@ -5,15 +5,26 @@
 <details>
 <summary>Technical Videos</summary>
 <br>
+  <summary>Basic Data Collection and Spreadsheets</summary>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/spreadsheets.html">Transcript dataset+Spreadsheets</a> 
   </dl>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/collect_data.html">How to Collect Your Own Data</a> 
   </dl>
+  
+  <summary>SQL and Relational Databases</summary>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/singletablequeries.html">Single Table Queries and GROUP BY</a> 
   </dl>
+  
+  <summary>R</summary>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/kanye_barchart.html">Kanye Bar Chart</a> 
+  </dl>
+  
+  <summary>Python</summary>
+  "Nothing here yet"
   
 </details>
 
