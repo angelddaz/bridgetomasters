@@ -10,10 +10,10 @@ You can also click on the picture directly below.](https://youtu.be/4ZQyFwON9kU)
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ### Relevant Links
-* Kaggle SQL day 1: https://www.kaggle.com/rtatman/sql-scavenger-hunt-day-1/
-* Kaggle SQL day 2: https://www.kaggle.com/rtatman/sql-scavenger-hunt-day-2/
-* SQL Excel Plugin: https://www.querystorm.com/
-* School database: https://github.com/angelddaz/bridgetomasters/blob/master/schooldb.xlsx
+* <a href="https://www.kaggle.com/rtatman/sql-scavenger-hunt-day-1/"> Kaggle SQL day 1 </a> 
+* <a href="https://www.kaggle.com/rtatman/sql-scavenger-hunt-day-2/"> Kaggle SQL day 2 </a>  
+* <a href="https://www.querystorm.com/"> SQL Excel Plugin </a>  
+* <a href="https://github.com/angelddaz/bridgetomasters/blob/master/schooldb.xlsx"> School database </a>   
 
 Notes:
 * I am trying out single take videos so it cuts down on editing and barriers to uploading content
