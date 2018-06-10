@@ -1,12 +1,5 @@
 # Welcome to the Bridge To Data Science / Statistics Masters project
 
-Before I start.
-> If you have any questions at any point, please ask. 
-
-> If you would like me to cover something that I haven't covered, please ask. 
-
-> If I ever go too fast, or glaze over something, that I mistakenly assume you know; please call me out
-
 # Click Drop-Downs for Content:
 
 <details>
@@ -17,6 +10,9 @@ Before I start.
   </dl>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/collect_data.html">How to Collect Your Own Data</a> 
+  </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/singletablequeries.html">Single Table Queries and GROUP BY</a> 
   </dl>
   
 </details>
