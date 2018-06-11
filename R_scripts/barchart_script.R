@@ -23,7 +23,7 @@ library(ggplot2)
 library(dplyr)
 
 
-# the following 6 lines of code were given to me by Tyler Bradley here:
+# the following 3 lines of code were given to me by Tyler Bradley here:
 # https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601
 df %>% 
   dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
