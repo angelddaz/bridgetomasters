@@ -1,4 +1,4 @@
-df <- read.csv('data.csv')
+df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/master/CSVs/ye_data.csv'))
 
 colnames(df)[colnames(df)=="Kanye.dataset"] <- "album_name"
 
