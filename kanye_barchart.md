@@ -13,7 +13,7 @@ Extracting colors from RGB image bands in R
 # Once I finish the script, I will go over the steps it took me to get to the finished product
 
 ### relevant links:
-* data: https://github.com/angelddaz/bridgetomasters/blob/master/ye_data.csv
+* data: https://github.com/angelddaz/bridgetomasters/blob/master/CSVs/ye_data.csv
 * jpegs: 
 
 <a href="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Kanyewest_collegedropout.jpg/220px-Kanyewest_collegedropout.jpg"> College Dropout </a> 
