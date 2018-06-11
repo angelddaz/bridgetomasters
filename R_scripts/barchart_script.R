@@ -19,10 +19,6 @@ df$release_year[df$album_name=="My Beautiful Dark Twisted Fantasy"] <- "2010"
 df$release_year[df$album_name=="Yeezus"] <- "2013"
 df$release_year[df$album_name=="The Life of Pablo"] <- "2016"
 
-        
-             
-
-
 library(ggplot2)
 # Automatic levels
 ggplot(df, aes(factor(album_name))) + geom_bar()    
@@ -30,10 +26,7 @@ ggplot(df, aes(factor(album_name))) + geom_bar()
 
 # Manual levels
 ry_table <- table(df$release_year) # rlease year table
-ry_levels <- c("2004", "2005", "2007", "2008", "2010", "2013", "2016")
-# Just to be clear, the above line is no different than:
-df$newcol <- factor(df$album_name, levels = c("2004", "2005", "2007", "2008", "2010", "2013", "2016"))
-# You can manually set the levels in whatever order you please. 
+ry_levels <- names(ry_table)[order(ry_table)]
 
 qplot(reorder(factor(release_year),factor(release_year),length),data=df,geom="bar")
 
