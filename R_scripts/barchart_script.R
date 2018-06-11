@@ -2,34 +2,35 @@ df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/
 
 colnames(df)[colnames(df)=="Kanye.dataset"] <- "album_name"
 
-# CD 2004
-# LR 2005
-# Graduation 2007
-# 808s 2008
-# MBDTF 2010
-# Yeezus 2013
-# TLOP 2016
+
+levels <- unique(df$album_name)
+levels <- as.data.frame(levels)
 
 # we want to add a new column called release year associated with each album
-df$release_year[df$album_name=="College Dropout"] <- "2004"
-df$release_year[df$album_name=="Late Registration"] <- "2005"
-df$release_year[df$album_name=="Graduation"] <- "2007"
-df$release_year[df$album_name=="808s & Heartbreak"] <- "2008"
-df$release_year[df$album_name=="My Beautiful Dark Twisted Fantasy"] <- "2010"
-df$release_year[df$album_name=="Yeezus"] <- "2013"
-df$release_year[df$album_name=="The Life of Pablo"] <- "2016"
+levels$release_year[levels$levels=="College Dropout"] <- "2004"
+levels$release_year[levels$levels=="Late Registration"] <- "2005"
+levels$release_year[levels$levels=="Graduation"] <- "2007"
+levels$release_year[levels$levels=="808s & Heartbreak"] <- "2008"
+levels$release_year[levels$levels=="My Beautiful Dark Twisted Fantasy"] <- "2010"
+levels$release_year[levels$levels=="Yeezus"] <- "2013"
+levels$release_year[levels$levels=="The Life of Pablo"] <- "2016"
+
+levels <- transform(levels, release_year = as.numeric(release_year)) # changing to numeric so I can sort
+levels <- levels[order(levels$release_year),]
+levels <- levels$levels # changing to a single vector to pass into dplyr mutate function
 
 library(ggplot2)
 library(dplyr)
 
+
+# the following 6 lines of code were given to me by Tyler Bradley here:
+# https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601
 df %>% 
-  dplyr::mutate(album_name = factor(album_name, 
-                                    levels = c("College Dropout", "Late Registration", "Graduation",
-                                               "808s & Heartbreak", "My Beautiful Dark Twisted Fantasy",
-                                               "Yeezus", "The Life of Pablo"))) %>% 
-ggplot(aes(album_name)) + geom_bar()
+  dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
+  ggplot(aes(album_name)) + geom_bar()
 
 
+# downloading album artwork
 CD <- "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Kanyewest_collegedropout.jpg/220px-Kanyewest_collegedropout.jpg"
 LR <- "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Late_registration_cd_cover.jpg/220px-Late_registration_cd_cover.jpg"
 Graduation <- "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Graduation_%28album%29.jpg/220px-Graduation_%28album%29.jpg"
@@ -46,3 +47,5 @@ download.file(MBDTF,'MBDTF.jpg', mode = 'wb')
 download.file(Yeezus,'Yeezus.jpg', mode = 'wb')
 download.file(TLOP,'TLOP.jpg', mode = 'wb')
 
+# Now I will use the following tool to get the most common colors from each album cover
+# https://davidrroberts.wordpress.com/2016/01/21/tabulate-hexadecimal-colours-from-rgb-image-bands-in-r/
