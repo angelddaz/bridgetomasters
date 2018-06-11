@@ -22,9 +22,7 @@ levels <- levels$levels # changing to a single vector to pass into dplyr mutate 
 library(ggplot2)
 library(dplyr)
 
-
-# the following 3 lines of code were given to me by Tyler Bradley here:
-# https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601
+# the following 3 lines of code were given to me by Tyler Bradley here: https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601
 df %>% 
   dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
   ggplot(aes(album_name)) + geom_bar()
@@ -49,3 +47,69 @@ download.file(TLOP,'TLOP.jpg', mode = 'wb')
 
 # Now I will use the following tool to get the most common colors from each album cover
 # https://davidrroberts.wordpress.com/2016/01/21/tabulate-hexadecimal-colours-from-rgb-image-bands-in-r/
+
+# Required packages
+library('raster')
+library('jpeg')
+library('colorspace')
+library('plyr')
+
+
+
+# Directory title (must be in the working directory)
+name <- "ye"
+
+# Path to images (also the output path for tables & images)
+filepath <- paste(name,"/",sep="")
+
+# List of image files (will be used to name outputs)
+image.list <- list.files(filepath,pattern="*.jpg")
+image.list <- substr(image.list,1,nchar(image.list)-4)
+
+## FUNCTION ##
+make.rgb.fun <- function(jpeg, round.dig, n.col){
+  # Image must have a .jpg extension (NOT .jpeg)
+  # jpeg = file name of image (without the .jpg extension)
+  # round.dig = number of digits to round RGB values to (more = more unique but similar colours)
+  # n.col = number of unique colour to plot 
+  
+  # Import image
+  img <- readJPEG(paste(filepath,jpeg,".jpg",sep=""))
+  
+  # Extract RGB layers
+  # Note the rounding of the RGB values
+  img.R <- round(img[,,1],1) # RED
+  img.G <- round(img[,,2],1) # GREEN
+  img.B <- round(img[,,3],1) # BLUE
+  
+  # Make unique colours
+  rgb <- hex(RGB(c(img.R),c(img.G),c(img.B)))
+  rgb.tab <- as.data.frame(table(rgb))
+  rgb.tab <- rgb.tab[order(-rgb.tab[2]),]
+  rgb.tab$Prop <- round(rgb.tab$Freq/sum(rgb.tab$Freq),5)
+  rgb.tab[1:10,]; dim(rgb.tab)
+  cols <- as.character(rgb.tab[1:n.col,1])
+  
+  # Save hex colour table
+  write.csv(rgb.tab, paste(filepath,jpeg,"_RGB_Table.csv",sep=""), row.names=F)
+  
+  # Plot
+  graphics.off(); x11(w=12,h=5)
+  layout.show(6)
+  par(mfrow=c(2,4), mar=c(1,1,1,1))
+  image(t(img.R[nrow(img.R):1L,]),axes=F, col=colorRampPalette(c("white","red"))(10))
+  image(t(img.G[nrow(img.G):1L,]),axes=F, col=colorRampPalette(c("white","green"))(10))
+  image(t(img.B[nrow(img.B):1L,]),axes=F, col=colorRampPalette(c("white","blue"))(10))
+  plot(1:100,1:100,type="n",axes=F,ann=F); rasterImage(img,1,1,100,100)
+  par(mar=c(5,5,1,1))
+  hist(img.R, breaks=12, col="pink", xlab="RED", ylab="", las=1, main="")
+  hist(img.G, breaks=12, col="darkolivegreen1", xlab="GREEN", ylab="", las=1, main="")
+  hist(img.B, breaks=12, col="lightblue", xlab="BLUE", ylab="", las=1, main="")
+  par(mar=c(8,1,1,1))
+  barplot(rep(n.col,n.col), col=cols, axes=F, names.arg=cols, las=2)
+  savePlot(paste(filepath,jpeg,"_RGB.png",sep=""),type="png")
+}
+
+# Run the function for the image list
+# Rounds to 1 decimal, 15 colour output
+lapply(image.list, make.rgb.fun, 1, 15)
