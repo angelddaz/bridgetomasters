@@ -20,15 +20,14 @@ df$release_year[df$album_name=="Yeezus"] <- "2013"
 df$release_year[df$album_name=="The Life of Pablo"] <- "2016"
 
 library(ggplot2)
-# Automatic levels
-ggplot(df, aes(factor(album_name))) + geom_bar()    
+library(dplyr)
 
-
-# Manual levels
-ry_table <- table(df$release_year) # rlease year table
-ry_levels <- names(ry_table)[order(ry_table)]
-
-qplot(reorder(factor(release_year),factor(release_year),length),data=df,geom="bar")
+df %>% 
+  dplyr::mutate(album_name = factor(album_name, 
+                                    levels = c("College Dropout", "Late Registration", "Graduation",
+                                               "808s & Heartbreak", "My Beautiful Dark Twisted Fantasy",
+                                               "Yeezus", "The Life of Pablo"))) %>% 
+ggplot(aes(album_name)) + geom_bar()
 
 
 CD <- "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Kanyewest_collegedropout.jpg/220px-Kanyewest_collegedropout.jpg"
