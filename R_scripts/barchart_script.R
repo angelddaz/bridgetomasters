@@ -1,4 +1,3 @@
-# this is currently a work in progress
 df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/master/CSVs/ye_data.csv'))
 
 colnames(df)[colnames(df)=="Kanye.dataset"] <- "album_name"
@@ -33,14 +32,17 @@ df %>%
 CD <- "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Kanyewest_collegedropout.jpg/220px-Kanyewest_collegedropout.jpg"
 LR <- "https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Late_registration_cd_cover.jpg/220px-Late_registration_cd_cover.jpg"
 Graduation <- "https://upload.wikimedia.org/wikipedia/en/thumb/7/70/Graduation_%28album%29.jpg/220px-Graduation_%28album%29.jpg"
-eights <- "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/808s_%26_Heartbreak.png/220px-808s_%26_Heartbreak.png"
-MBDTF <- "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/My_Beautiful_Dark_Twisted_Fantasy.jpg/220px-My_Beautiful_Dark_Twisted_Fantasy.jpg"
-Yeezus <- "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Yeezus_album_cover.png/220px-Yeezus_album_cover.png"
+#808s and heartbreak album art is not from wikipedia because it is a PNG file
+eights <- "https://images.rapgenius.com/d1a9ea4c12ee6e7a1b15827ade0e28c6.1000x998x1.jpg"
+# MBDTF album art is censored for NSFW reasons
+MBDTF <- "https://is2-ssl.mzstatic.com/image/thumb/Music/81/08/42/mzi.sagnwwce.jpg/268x0w.jpg"
+# Yeezus album art is also a PNG
+Yeezus <- "https://cdn.shopify.com/s/files/1/1377/6983/products/6b83c7561a8a1b010f81aa87bbe1b7fcc3bfbe9c.jpg?v=1482430966"
 TLOP <- "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/The_life_of_pablo_alternate.jpg/220px-The_life_of_pablo_alternate.jpg"
 
 download.file(CD,'CD.jpg', mode = 'wb')
 download.file(LR,'LR.jpg', mode = 'wb')
-Graduation <- download.file(Graduation,'Graduation.jpg', mode = 'wb')
+download.file(Graduation,'Graduation.jpg', mode = 'wb')
 download.file(eights,'eights.jpg', mode = 'wb')
 download.file(MBDTF,'MBDTF.jpg', mode = 'wb')
 download.file(Yeezus,'Yeezus.jpg', mode = 'wb')
@@ -55,7 +57,7 @@ library('jpeg')
 library('colorspace')
 library('plyr')
 
-
+filepath <- ""
 image.list <- c("CD", "LR", "Graduation", "eights", "MBDTF", "Yeezus", "TLOP")
 
 ## FUNCTION ##
@@ -105,3 +107,32 @@ make.rgb.fun <- function(jpeg, round.dig, n.col){
 # Run the function for the image list
 # Rounds to 1 decimal, 15 colour output
 lapply(image.list, make.rgb.fun, 1, 15)
+
+# I'm going to write a function to grab the most probable color for each album
+
+get_color <- function(csv) {
+    colordf <- read.csv(csv)
+    colordf <- as.character(head(colordf[1,1]))
+}
+
+
+list <- Sys.glob("*_RGB_Table.csv")
+print(list)
+# I'm going to reorder the values here because this the current order
+# > print(list)
+# [1] "CD_RGB_Table.csv"         "Graduation_RGB_Table.csv" "LR_RGB_Table.csv"         "MBDTF_RGB_Table.csv"     
+# [5] "TLOP_RGB_Table.csv"       "Yeezus_RGB_Table.csv"     "eights_RGB_Table.csv"
+
+# doing this manually "for now"
+list <- c("CD_RGB_Table.csv", "LR_RGB_Table.csv", "Graduation_RGB_Table.csv",
+          "eights_RGB_Table.csv", "MBDTF_RGB_Table.csv", 
+          "Yeezus_RGB_Table.csv", "TLOP_RGB_Table.csv")
+colors <- lapply(list, get_color)
+colors <- c(colors)
+
+barplot(table(df$album_name), col=colors)
+
+df %>% 
+    dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
+    ggplot(aes(album_name)) + geom_bar(fill=colors)
+
