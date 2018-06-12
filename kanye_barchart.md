@@ -19,7 +19,7 @@ So I ended up submitting an answer 64 times but my submissions were wildly incon
 
 ### Code I wanted to point out. A walkthrough of sorts with 6 bullet points.
 
-1. Using a URL instead of local CSV file allowed me to ask this question on <a href="https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601RStudio" RStudio Community </a>. I uploaded the CSV in GitHub and viola, you can use it in your script.
+1. Using a URL instead of local CSV file allowed me to ask this question on <a href="https://community.rstudio.com/t/how-to-manually-order-x-axis-on-bar-chart/9601RStudio"> RStudio Community </a>. I uploaded the CSV in GitHub and viola, you can use it in your script.
 ```r
 df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/master/CSVs/ye_data.csv'))
 ```
