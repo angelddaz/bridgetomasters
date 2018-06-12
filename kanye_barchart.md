@@ -6,6 +6,8 @@
 ### How this started:
 I made a <a href="https://github.com/angelddaz/bridgetomasters/blob/master/collect_data.md"> Data Collection Video </a> in which I explained a great way to collect your own data. I stole this idea of using Google Forms from Hilary Parker of StitchFix. I bookmarked this survey and whenever I remembered to submit an answer, I would record how I felt at any given time. Each Kanye West album has a different mood; i.e. *808s & Heartbreak* is deeply melancholic and introspective. *Yeezus* is the musical embodiment of a chip on your shoulder - a black hole of insecurity and rage.
 
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/googleform.PNG" alt = "Google Form">
+
 So I ended up submitting an answer 64 times but my submissions were wildly inconsistent. I knew I couldn't do an analysis grouping by time of submissions or weekly, or anything like that. So I figured a bar chart of counts would best serve my needs on this programming project. With a bar chart, I covered so much ground; data collection, x axis ordering, dplyr, co-opting other people's tools, asking questions on community.rstudio.com, etc.
 
 ### Here is the <a href="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/barchart_script.R"> complete script </a> which is done for now
