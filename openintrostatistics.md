@@ -28,6 +28,9 @@ or this:
 Stratified sampling is a divide-and-conquer sampling strategy. 
 The population is divided into groups called strata.
 ```
+[Gah! I always forget which one is right skewed and left skewed](https://docs.google.com/presentation/d/1RxhMS64htGTy-nH8eo8xqYvqT7-yxViVIS_gncWaTwk/edit#slide=id.g1726b84cdb_0_164)
+Right skewed has small area under the curve on the right. Left skewed has small area under the curve on the left.
+
 made it to page 26. This book is very thorough with lots of videos and slides as supplements within the pdf. Fantastic.
 
 
