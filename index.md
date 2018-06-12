@@ -80,8 +80,6 @@
 3. Don't feel comfortable programming or with math/stats
 4. Under-privileged folks who have tried to learn DS on their own but feel like they need a Master's degree (credibility on a resume) to more easily make the leap into a DS job
 
-## This website is made by Angel D'az. [Twitter profile](https://twitter.com/angeld_az)
-
 ### Topics covered:
 1. Programming projects in Python and R
 2. SQL practice queries and Relational Database lessons
