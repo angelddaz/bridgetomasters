@@ -28,6 +28,7 @@
 
 <details>
 <summary>Book Chapter Summaries</summary>
+<br>
   <dl>
   <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Open Intro Statistics</a> 
   </dl>
@@ -44,9 +45,7 @@
   <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Bayes</a> 
   </dl>
 <br>
-  
 </details>
-
 <details>
 <summary>Recommended Pre-Requisites</summary>
 <br>
