@@ -24,7 +24,7 @@
   </dl>
   
   <summary>Python</summary>
-  "Nothing here yet"
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Nothing here yet</a>
   
 </details>
 
