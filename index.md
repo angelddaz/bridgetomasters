@@ -45,7 +45,7 @@
 </details>
 
 <details>
-<summary>Opinioninated Blog Posts</summary>
+<summary>Opinionated Blog Posts</summary>
 <br>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/structure_and_creativity.html">Structure and Creativity</a> 
