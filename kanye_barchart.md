@@ -13,7 +13,7 @@ So I ended up submitting an answer 64 times but my submissions were wildly incon
 ### Here is the <a href="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/barchart_script.R"> complete script </a> which is done for now
 
 ## Main takeways:
-* Choose projects that mean something to you first, and mean something to other people second.
+* Choose projects that mean something to you first, and mean something to other people, second.
 * "Steal" openly available tools for your projects
 * Ask questions and you'll be exposed to cool new stuff
 
