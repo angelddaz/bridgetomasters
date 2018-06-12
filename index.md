@@ -70,4 +70,4 @@
 1. Programming languages like Python and R
 2. Fundamental statistics such as; T-tests, linear regression, logistic regression
 3. SQL and relational databases
-4. Math books like [ISLR](http://www-bcf.usc.edu/~gareth/ISL/), [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download), [Think Bayes](http://greenteapress.com/wp/think-bayes/), 
+4. Math books like [ISLR](http://www-bcf.usc.edu/~gareth/ISL/), [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download), [Think Bayes](http://greenteapress.com/wp/think-bayes/)
