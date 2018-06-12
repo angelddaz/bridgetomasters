@@ -5,7 +5,7 @@
 <details>
 <summary>Technical Videos</summary>
 <br>
-  <summary>Basic Data Collection and Spreadsheets</summary>
+  <summary><b>Basic Data Collection and Spreadsheets</b></summary>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/spreadsheets.html">Transcript dataset+Spreadsheets</a> 
   </dl>
@@ -13,17 +13,17 @@
   <a href="https://angelddaz.github.io/bridgetomasters/collect_data.html">How to Collect Your Own Data</a> 
   </dl>
   
-  <summary>SQL and Relational Databases</summary>
+  <summary><b>SQL and Relational Databases</b></summary>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/singletablequeries.html">Single Table Queries and GROUP BY</a> 
   </dl>
   
-  <summary>R</summary>
+  <summary><b>R</b></summary>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/kanye_barchart.html">Kanye Bar Chart</a> 
   </dl>
   
-  <summary>Python</summary>
+  <summary><b>Python</b></summary>
   <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Nothing here yet</a>
   
 </details>
@@ -67,34 +67,9 @@
 6. Under-privileged folks who have tried to learn DS on their own but feel like they need a Master's degree (credibility on a resume) to more easily make the leap into a DS job
 
 ## This website is made by me! Angel D'az [Twitter](https://twitter.com/angeld_az):
-I graduated with a Business and Economic Analytics B.S. and Computer Science minor from Boise State University Fall 2017.
-I was a music major for three years before deciding to not do music. I wasn't sure what to do for another two years.
-I feel like I scraped by a lot of my math and computer science courses. I also feel like I know ETL, scripting, and databases,
-relatively well.
 
-I am currently a database engineer at a startup in Boise. I have no concrete plans of getting a Master's degree in the next few years.
-It's one of those things that I figure I will be getting eventually but no set in stone timeline. I am making this for myself but 
-also for my brother, who graduated with an Education B.S. and would benefit from this content.
-
-If you can imagine a bridge that takes you from an "unrelated" field such as music to a Data Science Masters degree;
-I am probably about 20% of the way on that bridge and want to help you take steps so that you have a successful two years
-in graduate school. I will focus on preparing you for a more professional/practical Masters degree rather than a pure math
-Statistics degree.
-
-### Topics we will cover (but not limited to):
-1. Programming languages such as Python and R
-2. How to even get started using these programming languages
-3. Fundamental statistics such as; T-tests, linear regression, logistic regression
-4. Logistics on admission processes
-5. SQL and relational databases
-6. Review of calculus problems
-7. What to expect in your journey
-8. How to apply and prepare for internship interviews
-9. The meaning of life
-10. Fundamental Linux/Unix shell command line stuff
-
-### Topics we will *probably not* cover:
-1. Why Latinx women love The Smiths, 80s British rock group, so much
-2. How to get a Data Science job
-3. Advanced algorithms and the fine details of them
-4. Proofs
+### Topics covered/will cover:
+1. Programming languages like Python and R
+2. Fundamental statistics such as; T-tests, linear regression, logistic regression
+3. SQL and relational databases
+4. Math books like [ISLR](http://www-bcf.usc.edu/~gareth/ISL/), [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download), [Think Bayes](http://greenteapress.com/wp/think-bayes/), 
