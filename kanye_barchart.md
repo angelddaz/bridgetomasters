@@ -49,12 +49,16 @@ df %>%
 ```
 
 4. <a href="https://davidrroberts.wordpress.com/2016/01/21/tabulate-hexadecimal-colours-from-rgb-image-bands-in-r/"> Tool </a> from David Roberts allowed me to create some of my most favorite results from this project. Color pallettes from some of my favorite Kanye albums.
+
 #### College Dropout
-![](https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/CD_RGB.png)
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/CD_RGB.png" alt = "">
+
 #### Late Registration
-![](https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/LR_RGB.png)
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/LR_RGB.png" alt = "">
+
 #### Graduation
-![](https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/Graduation_RGB.png)
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/Graduation_RGB.png" alt = "">
+
 
 5. This <a href="https://davidrroberts.wordpress.com/2016/01/21/tabulate-hexadecimal-colours-from-rgb-image-bands-in-r/"> tool </a> also created CSVs of the RGB breakdown and I selecting values from CSVs is a common data wrangling task. I had to manually reorder the list of CSVs so that it would match the release year order. 
 * There are several ways to automate this I could think of; changing the make.rgb.fun function so that it adds a sequential (0, 1, 2, ... , n) number in front of each CSV so that the ```list <- Sys.glob("*_RGB_Table.csv")``` line could maybe grab them in order.
@@ -87,7 +91,7 @@ df %>%
   ggplot(aes(album_name)) + geom_bar(fill=colors, colour="black") + ggtitle("Number of Times I felt like a Kanye Album")
 ```
 I get this final result:
-![](https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/final_bar_chart.png)
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/R_scripts/ye_dev/final_bar_chart.png" alt = "">
 
 ### Finally, what does this say about my moods when I submitted to the Google Forms
 808s and heartbreak is the <a href="https://www.youtube.com/watch?v=semrAAeRlworunaway"> runaway </a> winner here. Which would tell me that I am a sad boi who is often melancholic and retrospective. Or maybe I am merely confirming what I believe to be true :). I also often have a chip on my shoulder, therefore, Yeezus is in second place. Last place is My Beautiful Dark Twisted Fantasy, although arguably Kanye's greatest masterpiece, I don't often have beautiful dark twisted fantasies. 
