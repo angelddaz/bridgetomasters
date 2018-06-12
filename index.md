@@ -67,7 +67,7 @@
 ## This website is made by [Angel D'az, Twitter](https://twitter.com/angeld_az):
 
 ### Topics covered/will cover:
-1. Programming languages like Python and R
+1. Small programming projects in Python and R
 2. SQL and relational databases
 3. Math books in about this order. All but ISLR are free: 
 * [Open Intro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
