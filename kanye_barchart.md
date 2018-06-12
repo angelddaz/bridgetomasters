@@ -22,6 +22,7 @@ So I ended up submitting an answer 64 times but my submissions were wildly incon
 df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/master/CSVs/ye_data.csv'))
 ```
 2. Scripting the ordering of levels used in bar chart ordering. These lines were a bit tricky to figure out but I'm glad I did. Assigning a release year to each unique album and then ordering by that unique year allowed me to pass in a variable into the mutate function rather than hard coding it. No worries, I have a few hard coded lines in this script.
+
 ```r
 levels <- unique(df$album_name)
 levels <- as.data.frame(levels)
