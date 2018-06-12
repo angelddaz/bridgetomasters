@@ -1,3 +1,4 @@
+# this is currently a work in progress
 df <- read.csv(url('https://raw.githubusercontent.com/angelddaz/bridgetomasters/master/CSVs/ye_data.csv'))
 
 colnames(df)[colnames(df)=="Kanye.dataset"] <- "album_name"
@@ -39,8 +40,8 @@ TLOP <- "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/The_life_of_pablo_
 
 download.file(CD,'CD.jpg', mode = 'wb')
 download.file(LR,'LR.jpg', mode = 'wb')
-download.file(Graduation,'Graduation.jpg', mode = 'wb')
-download.file(eights,'808s.jpg', mode = 'wb')
+Graduation <- download.file(Graduation,'Graduation.jpg', mode = 'wb')
+download.file(eights,'eights.jpg', mode = 'wb')
 download.file(MBDTF,'MBDTF.jpg', mode = 'wb')
 download.file(Yeezus,'Yeezus.jpg', mode = 'wb')
 download.file(TLOP,'TLOP.jpg', mode = 'wb')
@@ -55,16 +56,7 @@ library('colorspace')
 library('plyr')
 
 
-
-# Directory title (must be in the working directory)
-name <- "ye"
-
-# Path to images (also the output path for tables & images)
-filepath <- paste(name,"/",sep="")
-
-# List of image files (will be used to name outputs)
-image.list <- list.files(filepath,pattern="*.jpg")
-image.list <- substr(image.list,1,nchar(image.list)-4)
+image.list <- c("CD", "LR", "Graduation", "eights", "MBDTF", "Yeezus", "TLOP")
 
 ## FUNCTION ##
 make.rgb.fun <- function(jpeg, round.dig, n.col){
@@ -74,7 +66,7 @@ make.rgb.fun <- function(jpeg, round.dig, n.col){
   # n.col = number of unique colour to plot 
   
   # Import image
-  img <- readJPEG(paste(filepath,jpeg,".jpg",sep=""))
+  img <- readJPEG(paste(jpeg,".jpg",sep=""))
   
   # Extract RGB layers
   # Note the rounding of the RGB values
