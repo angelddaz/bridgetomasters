@@ -63,6 +63,7 @@
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/email_comm.html">Written Communication Tips for First-Gen</a> 
   </dl>
+  <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/nyr2018.html">NY R Conference 2018 thoughts</a> 
   </dl>
   <dl>
@@ -79,10 +80,10 @@
 
 ## This website is made by Angel D'az. [Twitter profile](https://twitter.com/angeld_az)
 
-### Topics covered/will cover:
-1. Small programming projects in Python and R
-2. SQL and relational databases
-3. Math books in about this order. All but ISLR are free: 
+### Topics covered:
+1. Programming projects in Python and R
+2. SQL practice queries and Relational Database lessons
+3. Math books this order~ish. All but ISLR are free: 
 * [Open Intro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
 * [Think Stats](http://greenteapress.com/wp/think-stats-2e/)
 * [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download)
