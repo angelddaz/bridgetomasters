@@ -130,9 +130,7 @@ list <- c("CD_RGB_Table.csv", "LR_RGB_Table.csv", "Graduation_RGB_Table.csv",
 colors <- lapply(list, get_color)
 colors <- c(colors)
 
-barplot(table(df$album_name), col=colors)
-
 df %>% 
-    dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
-    ggplot(aes(album_name)) + geom_bar(fill=colors)
+  dplyr::mutate(album_name = factor(album_name, levels = levels)) %>% 
+  ggplot(aes(album_name)) + geom_bar(fill=colors, colour="black") + ggtitle("Number of Times I felt like a Kanye Album")
 
