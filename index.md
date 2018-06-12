@@ -1,7 +1,7 @@
 # Click Drop-Downs for Content:
 
 <details>
-<summary>Technical Videos</summary>
+<summary>R, Python, and SQL</summary>
 <br>
   <summary><b>Basic Data Collection and Spreadsheets</b></summary>
   <dl>
@@ -27,18 +27,31 @@
 </details>
 
 <details>
-<summary>Class Pre-Requisites</summary>
-<br>
+<summary>Book Chapter Summaries</summary>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/prereqs.html">What Classes Do I have to Take?</a> 
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Open Intro Statistics</a> 
   </dl>
+  <dl>
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Stats</a> 
+  </dl>
+  <dl>
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Intro to Probability</a> 
+  </dl>
+  <dl>
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">ISLR</a> 
+  </dl>
+  <dl>
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Bayes</a> 
+  </dl>
+<br>
+  
 </details>
 
 <details>
-<summary>Feelings on Moving into Data</summary>
+<summary>Recommended Pre-Requisites</summary>
 <br>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/story.html">My Story</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/prereqs.html">What Classes Do I have to Take?</a> 
   </dl>
 </details>
 
@@ -52,6 +65,9 @@
   <a href="https://angelddaz.github.io/bridgetomasters/email_comm.html">Written Communication Tips for First-Gen</a> 
   </dl>
   <a href="https://angelddaz.github.io/bridgetomasters/nyr2018.html">NY R Conference 2018 thoughts</a> 
+  </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/story.html">My Story</a> 
   </dl>
   
 </details>
