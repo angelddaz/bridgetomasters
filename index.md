@@ -1,5 +1,3 @@
-# Welcome to the Bridge To Data Science / Statistics Masters project
-
 # Click Drop-Downs for Content:
 
 <details>
@@ -66,7 +64,7 @@
 5. Don't feel comfortable with math and statistics
 6. Under-privileged folks who have tried to learn DS on their own but feel like they need a Master's degree (credibility on a resume) to more easily make the leap into a DS job
 
-## This website is made by me! Angel D'az [Twitter](https://twitter.com/angeld_az):
+## This website is made by [Angel D'az, Twitter](https://twitter.com/angeld_az):
 
 ### Topics covered/will cover:
 1. Programming languages like Python and R
