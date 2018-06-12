@@ -68,6 +68,10 @@
 
 ### Topics covered/will cover:
 1. Programming languages like Python and R
-2. Fundamental statistics such as; T-tests, linear regression, logistic regression
-3. SQL and relational databases
-4. Math books like [ISLR](http://www-bcf.usc.edu/~gareth/ISL/), [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download), [Think Bayes](http://greenteapress.com/wp/think-bayes/)
+2. SQL and relational databases
+3. Math books in about this order. All but ISLR are free: 
+* [Open Intro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
+* [Think Stats](http://greenteapress.com/wp/think-stats-2e/)
+* [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) (warning: PDF link may download)
+* [ISLR](http://www-bcf.usc.edu/~gareth/ISL/)
+* [Think Bayes](http://greenteapress.com/wp/think-bayes/)
