@@ -1,4 +1,5 @@
-# Click Drop-Downs for Content:
+#### Attempting to Democratize Graduate level Math and Programming
+## Click Drop-Downs for Content:
 
 <details>
 <summary>R, Python, and SQL</summary>
@@ -80,7 +81,7 @@
 3. Don't feel comfortable programming or with math/stats
 4. Under-privileged folks who have tried to learn DS on their own but feel like they need a Master's degree (credibility on a resume) to more easily make the leap into a DS job
 
-### Topics covered:
+## Topics covered:
 1. Programming projects in Python and R
 2. SQL practice queries and Relational Database lessons
 3. Math books this order~ish. All but ISLR are free: 
