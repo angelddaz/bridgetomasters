@@ -31,13 +31,37 @@ The population is divided into groups called strata.
 [Gah! I always forget which one is right skewed and left skewed](https://docs.google.com/presentation/d/1RxhMS64htGTy-nH8eo8xqYvqT7-yxViVIS_gncWaTwk/edit#slide=id.g1726b84cdb_0_164)
 Right skewed has small area under the curve on the right. Left skewed has small area under the curve on the left.
 
-made it to page 26. This book is very thorough with lots of videos and slides as supplements within the pdf. Fantastic.
+This book is very thorough with lots of videos and slides as supplements within the pdf.
+sample mean is xbar
+
+1.6.3 Histograms have always been a little tricky for me. I know that they don't need a Y axis
+*binned counts plotted as bars* is a great definition for histograms. Histograms are deceptively simple to me. 
+
+```Histograms provide a view of the data density```
+aka distributions
+sample variance (s^2) is  ((the sum of ((each observation minus the sample mean) squared) ) divided by sample size minus 1 )
+
+to break **((the sum of ((each observation minus the sample mean) squared) ) divided by sample size minus 1 )** down:
+
+You start with each observation minus the sample mean.
+You square each one of these.
+You add them all up.
+Finally you divide that sum by sample size minus 1.
+
+```The IQR is the length of the box in a box plot. It is computed as IQR = Qsub3 - Qsub1```
+
 
 
 ## Chapter 2 - Probability (special topic)
+
 ## Chapter 3 - Distributions of random variables
+
 ## Chapter 4 - Foundations for inference
+
 ## Chapter 5 - Inference for numerical data
+
 ## Chapter 8 - Inference for categorical data
+
 ## Chapter 6 - Introduction to Linear Regression
+
 ## Chapter 7 - Multiple and Logistic Regression
