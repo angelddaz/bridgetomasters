@@ -108,8 +108,80 @@ It's kind of getting the combined variance for each variable from 0 to k, where 
 Skipping problems for this chapter. I'll be skipping more problems for this book than the more advanced ones which have material I've never been exposed to.
 
 ## Chapter 3 - Distributions of random variables
-pg. 127
+```The normal distribution with mean 0 and standard deviation 1 is called the standard normal distribution.```
+Without the standard there, it can have whatever mean and whatever standard deviation (stdev) as long as it's mirrored on both sides of the mean and it follows the unimodal, bell-shaped curve.
 
+this is a good concise definition:
+```
+The Z-score of an observation is defined as the number of standard deviations it falls above or below the mean
+```
+It's computed by subtracting an observation by the mean and then dividing the result by the stdev. I've used this formula many times in quantitative type courses like econ or stats.
+
+Using the z score to find a probability from a table is something I am pretty familiar with. Memories of Statistical Techniques for Business Decision Making classes are coming back. I'm not doing any of the problems because I have already done problems, I mostly am doing this for refresher and also to approach the same topics without the stress of grades or spitting out the correct answer.
+It always helps to draw out which area of the normal curve the question is asking for. For example; P(value is between A and B). So you find the relevant probability of A and of B and then subtract those two values B - A for an absolute value of distance (or area below the normal curve) between the two. I'm surprised with how familiar I am with this section.
+
+3.3 Geometric Distributions
+```When an individual trial only has two possible outcomes, it is called a Bernoulli random variable```
+mean equals probability of outcome success which is ``` 1 / p ```
+stdev equals sqrt(probability of success times probability of failure ) = ```sqrt(p(1-p))```
+
+If the probability of a success in one trial is p and the probability of a failure is 1 - p, then the probability of finding the first success in the nth trial is given by (1 - p)^(n - 1) * p
+Basically you raise the original by the amount of trials minus one and then times the result by the original probability of outcome success.
+
+I am more familiar with a Bernoulli distribution than I ever thought I was. It's so nice to read this book without pressure.
+
+3.4 Binomial Distributions
+This is where it starts to get really math-y for me. Binomial distributions are repeated trials with binary outcomes (success-failure or heads-tails). so this formula is for P(K successes)
+(n choose k) times probability of success (p) raised to the power of success(k) times failure outcome (1 - p) raised to the power of failures (n - k)
+so there's basically three parts to the binomial distribution formula.
+1. n choose k
+2. probability of success raised to the power of number of successes
+3. probability of failure raise to the power of number of failures
+
+to repeat in a different way
+1. n! / ( k! (n - k)! )
+2. p^k
+3. (1 - p ) ^ (n - k)
+
+and you times all three together and you get your probability of K successes. Typically in textbooks, n, k and p will be provided. The rest is just plug and play if you can remember where to plug.
+
+2 more small formulas:
+mean = n * p
+stdev = sqrt ( n * p * ( 1 - p ) )
+
+Normal approximation is where we basically smooth out the bars and lose some nuance in exchange for being able to use a continuous function and z scores and stuff like that. Not a big deal if you're not super into theory work I think.
+
+3.5.1 Negative Binomial distribution
+Negative Binomial distribution describes the probability of observing the kth success on the nth trial.
+
+similar but different formula. The only thing that changes from the following three chunks from Binomial distribution formula is the first step. Apart from the formula, n also changes because now it's not total amount of trials but rather can be changed. 
+1. (n - 1) choose (k - 1)
+2. probability of success raised to the power of number of successes
+3. probability of failure raise to the power of number of failures
+
+These three steps are all timesd togethe for P(the kth success on the nth trial).
+
+put another way:
+1. (n - 1)! / ( (k - 1)! (n - k)! ) // this one is the same mathematically expect the two minus ones inside parantheses
+2. p^k
+3. (1 - p ) ^ (n - k)
+
+3.5.2 Poisson Distribution
+```The Poisson distribution is often useful for estimating the number of events in a large population over a unit of time```
+more useful words
+```The Poisson distribution helps us describe the number of such events that will occur in a day for a fixed population if the individuals within the population are independent.```
+
+The rate of something happening is denoted by the greek symbol [lambda](https://en.wikipedia.org/wiki/Lambda)
+So the formula
+P(observe k events) = ((lambda ^ k) * (e  ^ -lambda)) / k!
+
+where e is the natural logarithm number, you know the [2.7something](https://en.wikipedia.org/wiki/E_(mathematical_constant))
+
+
+ML (GLM) WARNING:
+```The idea of modeling rates for a Poisson distribution against a second variable such as dayOfTheWeek forms the foundation of some more advanced methods that fall in the realm of generalized linear models```
+
+Great chapter. I am really happy with how much I was able to follow along. It's like looking at the same material but now I've taken a nap.
 
 ## Chapter 4 - Foundations for inference
 
