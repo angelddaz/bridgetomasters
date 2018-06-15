@@ -15,7 +15,7 @@ I loved teaching trombone to middle school students. Young enough to be willing 
 ----------------------------------------------------------------------------------
 
 
-1. Statistical Rigor 
+## Statistical Rigor 
 
   There's a lot of distance between pedantry/rudeness and enabling lack of rigor.
 
@@ -26,7 +26,7 @@ I loved teaching trombone to middle school students. Young enough to be willing 
   So statistical consulting is quite literally a communications demanding work, being able to balance rigor and compassion. Not everyone knows what the statistician knows, yet the statistician still has to call for excellence and honesty from their client. Much in the same way a music teacher does for a student.
   
 ----------------------------------------------------------------------------------
-2. Why should I care
+## Why should I care
 
   Having a client that doesn't care is the worst. Having an 11 year old blank stare you in the forehead as you explain major scales is the also the worst. Another common complaint I see from statisticians is that clients sometimse don't care to expand their horizons, try the better software (a programming language), or set up good expirement design.
 
@@ -36,6 +36,6 @@ I loved teaching trombone to middle school students. Young enough to be willing 
 
 ----------------------------------------------------------------------------------
 
-3. Helping others succeed is awesome
+## Helping others succeed is awesome
 
   It is amazing to see the sparkle in a student's eye when they finish a passage of music they once thought impossible. The last time I went to a jazz festival, two of my students won awards for their divisions are great bass trombonists. I am still so very proud of them. For all the frustrations that come with dealing with other human beings, whether it's statistical consulting or teaching trombone, it sometimes comes with the greatest joys.
