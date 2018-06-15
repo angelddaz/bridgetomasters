@@ -5,8 +5,10 @@
 I'm not sure yet how these summaries will go. Probably a mix of blogging and coding about each chapter. I imagine that for the first few books, each intro chapter will be mostly blogging about it and less coding about it. I was debating skipping this book because I have taken statistics, econometrics, etc. in college and have a few years of experience with data analysis. But I ended up deciding I will go through this book.
 
 Now. On to the book!
+<details>
+  <summary> <b> Chapter 1 - Introduction to data </b> </summary>
+<br>
 
-## Chapter 1 - Introduction to data
 A good thing to note. 
 ```
 statistics has three primary components: 
@@ -61,7 +63,12 @@ I feel like categorical data is where a lot of bad data quality happens. Maybe b
 
 Skipping problems for this chapter.
 
-## Chapter 2 - Probability (special topic)
+</details>
+
+<details>
+  <summary> <b> Chapter 2 - Probability (special topic) </b> </summary>
+<br>
+
 Good old dice problems
 ```P(1 or 2) = P(1) + P(2) = 1/6 + 1/6 = 1/3```
 Out of a deck of cards:
@@ -106,8 +113,12 @@ General Variance formula = sum each j until k for (xsubj minus mean)^2 times P(X
 It's kind of getting the combined variance for each variable from 0 to k, where each iteration is j.
 
 Skipping problems for this chapter. I'll be skipping more problems for this book than the more advanced ones which have material I've never been exposed to.
+</details>
 
-## Chapter 3 - Distributions of random variables
+<details>
+  <summary> <b> Chapter 3 - Distributions of random variables </b> </summary>
+<br>
+  
 ```The normal distribution with mean 0 and standard deviation 1 is called the standard normal distribution.```
 Without the standard there, it can have whatever mean and whatever standard deviation (stdev) as long as it's mirrored on both sides of the mean and it follows the unimodal, bell-shaped curve.
 
@@ -183,12 +194,35 @@ ML (GLM) WARNING:
 
 Great chapter. I am really happy with how much I was able to follow along. It's like looking at the same material but now I've taken a nap.
 
-## Chapter 4 - Foundations for inference
+</details>
 
-## Chapter 5 - Inference for numerical data
 
-## Chapter 8 - Inference for categorical data
+<details>
+  <summary> <b> Chapter 4 - Foundations for inference </b> </summary>
+<br>
 
-## Chapter 6 - Introduction to Linear Regression
+</details>
 
-## Chapter 7 - Multiple and Logistic Regression
+<details>
+  <summary> <b> Chapter 5 - Inference for numerical data </b> </summary>
+<br>
+  
+  </details>
+
+<details>
+  <summary> <b> Chapter 6 - Inference for categorical data </b> </summary>
+<br>
+  
+  </details>
+
+<details>
+  <summary> <b> Chapter 7 - Introduction to Linear Regression </b> </summary>
+<br>
+  
+  </details>
+
+<details>
+  <summary> <b> Chapter 8 - Multiple and Logistic Regression </b> </summary>
+<br>
+
+<details>
