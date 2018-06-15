@@ -61,6 +61,9 @@
 <summary>Opinionated Blog Posts</summary>
 <br>
   <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/tromboneconsulting.html">Parallels between Statistical Consulting and Teaching Trombone</a> 
+  </dl>
+  <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/structure_and_creativity.html">Structure and Creativity</a> 
   </dl>
   <dl>
