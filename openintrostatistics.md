@@ -270,9 +270,59 @@ When observations are independent and nearly normal
 
 df = n - 1
 
-I am actually super familiar with a lot of the content in this book because I have taken 3 statistics courses and numerous quantitative econ courses which use these statistics.
-  
-  
+5.2 Paired Data
+Paired data when comparing one to one observations. Differences in prices between two stores for exact same items for example.
+We have null hypothesis that there is no difference between the two.
+Alternative hypothesis that there is a difference.
+
+compute SE with stdev / sqrt(n)
+compute T statistic or T score with xbar - 0 (null value) divided by the standard error.
+compute p-values with the T score and degrees of freedom. If the p values are less than 0.05 on both sides, we reject the null hypothesis that there is no difference between the two. One store probably is, on average, cheaper than the other.
+
+5.3 difference of two means
+consider the difference in two population means. t-distribution can be used for inference of the difference of two mean if the samples are independent and meet the conditions for using the t-dist which is independent observations and distribution of sample is somewhat normal.
+
+Calculate the SE of the differnece of two means SEsub(xbar1 - xbar2) = sqrt ( variance1/n1 + variance2/n2 )
+df = MIN(n1 -1 OR n2 - 1)
+So if we get a SE of 1.95 then we would use the t stat from a .95 confidence level and the degrees of freedom.
+Also use our original value of the difference between the two means.
+original difference +- t stat times 1.95 (SE).
+
+With a confidence interval of (3.32, 12.32) we are 95% confident that an original estimated difference of 7.83 is accurate.
+I did difference of means t tests like this in pizza delivery statistics [here](https://github.com/angelddaz/pizza_delivery/blob/master/scripts/angel_sam_t_test.py). I wrote this python script a while ago.
+
+
+
+5.3.6 Pooled standard deviation estimate
+Use pooled standard deviation of two groups so that the SE and stdev is better estimated when the two means have very similar standard deviatoins.
+
+Pooled group variance = variance1 * (n1 - 1) + variance2 * (n2 - 1) / (n1 + n2 - 2)
+This formula is similar 
+
+
+5.5 Comparing many means with ANOVA
+H0 the mean is equal across all groups
+HA at least one mean is different
+
+we want independent observations, nearly normal data within groups, variability across groups is about equal.
+I'm think that ANOVA is perfect for group by analysis. For example, if each group is a day of the week and we want to see statistical difference between average consumer behavior across a long period of time grouped by day of the week.
+
+
+Good reading about [Prosecutor's Fallacy](http://andrewgelman.com/2007/05/18/the_prosecutors/)
+A lesson in snowballing confirmation bias.
+
+5.5.2 Analysis of variance (ANOVA) and the F test
+Variability called the mean square between groups (MSG) has df = k -1 where k is number of groups. MSG can be thought of as a scaled variance formula for means. MSG on it's own is pretty useless without a benchmark to compare it to. Mean Square Erorr (MSE) with df = n - k is that benchmark. When the null hypothesis is true, differences between sample means are due to chance, MSG and MSE should be about equal. test stat for ANOVA is F = MSG / MSE.
+
+MSG measures between-group variability
+MSE measures variability within each of the groups
+
+Bonferroni correction is a fancy word for even more stringent confidence levels with multiple groups.
+alpha* = alpha / K
+where K = k(k -1)/2 where k is # of groups
+
+```This is effectively the strategy of ANOVA:stand back and consider all the groups simultaneously.```
+
   </details>
 
 <details>
