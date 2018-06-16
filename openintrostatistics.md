@@ -1,6 +1,6 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
-If you are looking at this with an html at the end of your URL, I highly recommend checking out the [.md version](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md) instead. The formatting is still there.
+If you are looking at this with an html at the end of your URL, I highly recommend checking out the [.md version](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md) instead. Most of the markdown formatting goes out the window in the html site.
 
 # My Understanding/Condensation of each [Open Intro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os) Chapter
 
@@ -328,7 +328,118 @@ where K = k(k -1)/2 where k is # of groups
 <details>
   <summary> <b> Chapter 6 - Inference for categorical data </b> </summary>
 <br>
-  
+
+Sample proportion (p hat) (p with a little ^ on top)
+Conditions for sampling dist of p hat to be nearly normal
+1. sample observations are independent
+2. we expect to see at least 10  succeses and 10 failures. np >= 10 and n(1 - p) >= 10. This is called the success-failure condition
+
+SEsub(p hat) = sqrt( p(1 - p) / (n) )
+Most of the time we don't know p, or true proportion, so we substitute in p hat.
+
+Remember: Confidence Interval (CI) = point estimate +- z * SE
+With a p hat of 0.82 +- 1.96 for 95% CI and times 0.012 SE gives us (0.796, 0.844) CI
+
+important:
+```
+In a one-proportion hypothesis test, the success-failure condition is checked using the null proportion, which is p0= 0.5 
+
+in this context: nsubp0 = n(1 − p0)
+ ```
+
+We can use the following general formula for proportions as well:
+Z = (point estimate - null value) / (SE) = (p hat - psub0) / (SE)
+
+Margin of error for a sample proportion is: 
+z * (sqrt((p(1 - p) )/ n )) < m // where m = margin of error
+so if we isolate n in one side we can set up a formula like this
+
+n (must be greater than) > z^2 * (p(1-p))/m^2
+
+Guided Practice 6.8
+we have p = 0.19
+we need to find n
+m = 0.04
+and Confidence level alpha = 0.95
+so that means z = 1.96
+
+plug and play!
+n > z^2 * (p(1-p))/m^2
+n > (1.96)^2 * (0.19(1-0.19))/(0.04)^2
+
+and that gets us n > 369.5
+
+We need a sample size bigger than 370 in order to be able to say that the 0.19 percent estimate has a 0.04 margin of error with 95% confidence if we have at least 370 sample size.
+
+
+6.2 Difference of two proportions
+SEsub(p1 - p2)
+= sqrt(SE^2subp1 + SE^2subp2)
+= sqrt((p1(1 - p1))/n1) + (p2(1-p2))/n2) )
+where p1 and p2 are sample proportions and n1 and n2 are sample sizes
+
+6.3 Testing for goodness of fit using chi-square
+
+This is a method for assessing a null model when the data are binned.
+This is typically done in two circumstances:
+1. a sample of cases that can be classified into several groups, determine if the sample is representative of the general pop
+2. evaluate whether data resemble a particular distribution like a normal distribution or geometric distribution
+
+H0: jurors are random sample
+HA: no random sample, there is racial bias
+
+data:
+Race            White   Black   Hispanic  Other   Total
+Observed data   205     26      25        19      275
+Expected counts 198     19.25   33        24.75   275 
+
+
+6.3.2 chi-square test baby
+
+so normal test set up is: (point estimate - null value) / SE of point estimate
+
+So we find the z score of each bin.
+
+z1 = (205 - 198 ) / sqrt(198) = 0.50
+.
+.
+.
+z4 = (19 - 24.75) / sqrt(24.75) = -1.16
+
+We could add up the absolute value of all z's. which would give us 4.58
+
+but it's more common to add the squared values which is 5.89
+Becuase it essentially exaggerates unusual differences between groups.
+
+in summary:
+he test statistic ~χ^2 (chi square)
+is equal to the sum of ((observed count(i) - null count(i))/(null counti)^2 for all i groups
+
+```
+χ^2 follows a new distribution called achi-square distribution.  
+Using this distribution, we willbe able to obtain a p-value to evaluate the hypotheses.
+```
+
+6.3.3 The chi-square distribution and finding areas 
+Chi-square distribution uses degrees of freedom
+
+Chi square test for two-way tables,
+
+basically you get a Z value for every single cell in the table. Exhausting.
+
+6.5.3 Generating the exact null distribution and p-value
+The following formula is the binomial model from 3.4
+
+1. n! / ( k! (n - k)! ) // n choose k
+2. p^k                  // successes to the success
+3. (1 - p ) ^ (n - k)   // failures to the failure
+and you times all three together
+
+we can use this formula subsitution k with j, where j = the proportion we are testing against
+
+
+Lots of bins, buckets, aka group bys, in this chapter. which makes sense, categorical data.
+
   </details>
 
 <details>
