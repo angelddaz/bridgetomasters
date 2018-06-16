@@ -1,5 +1,7 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
+If you are looking at this with an html at the end of your URL, I highly recommend checking out the [.md version](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md) instead. The formatting is still there.
+
 # My Understanding/Condensation of each [Open Intro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os) Chapter
 
 I'm not sure yet how these summaries will go. Probably a mix of blogging and coding about each chapter. I imagine that for the first few books, each intro chapter will be mostly blogging about it and less coding about it. I was debating skipping this book because I have taken statistics, econometrics, etc. in college and have a few years of experience with data analysis. But I ended up deciding I will go through this book.
@@ -201,11 +203,75 @@ Great chapter. I am really happy with how much I was able to follow along. It's 
   <summary> <b> Chapter 4 - Foundations for inference </b> </summary>
 <br>
 
+4.1 Variability in Estimates
+Statistical  inference  is  concerned  primarily  with  understanding  the  quality  of  parameter estimates
+Principles of inference don't change across different statistical methods.
+Point estimates are like sample means.
+
+I think maybe I won't be taking many notes in this chapter. It's more of approaches to analysis rather than math heavy stuff.
+
+Taking many random sample means and then making a histogram of it makes a sampling distribution. It's like variance of point estimates.
+
+Standard error of an estimate is the standard deviation associateed with estimate. I've seen (SE) associated with multiple regression variables. This section talks about standard error of a point estimate, I wonder how this differs from standard error of a variable slope in regression.
+
+Computing standard error for the sample mean is equal to standard deviation divided by the square root of observations.
+We want to conduct a simple random sample consisting of less than 10% of the population.
+
+
+4.2 Confidence Intervals
+Confidence Interval is a plausible range of values for the popultation parameter. CI is like a net. Point Estimate is like a spear. 
+
+A 95% confidence interval can be computed by point estimate +- 2 times SE.
+
+What does 95% confident mean? Good question.
+25 samples of size n = 100 for a estimate point of x bar.  95% of them will ocntain the actual mean.
+
+You can adjust the standard deviation used in calculating the SE if you want a smaller or larger confidence interval.
+Confidence interval only tells you how plausible it is that a parameter is in hte interval, not a probability.
+Margin of error is z * SE.
+
+4.3 Hypothesis Testing
+Hsub0 is the null hypothesis - often represents a skeptical perspective or a claim to be tested
+HsubA is the alternative hypothesis - represents an alternative claim, often represented by a range of possible parameter values
+
+Checking for skew is tricky this book says.
+Type 1 error is rejecting the null hypothesis when it is actually true. AKA False Positive 
+Type 2 error is failing to reject the null hypothesis when the alternative is true. AKA False Negative
+
+4.3.4 Formal Testing using p-value
+
+p-value
+``` the probability of observing data at least as favorable to the alternative hypothesis as our current data set, if the null hypothesis is true.```
+How do I reword this. The probability that future real data will be at least as favorable to the alternative hypothesis, often represented by a range of possible parameter values, as our current data set.
+Null hypothesis will always be listed as an equality. 
+
+
+So let's say we get a p value of 0.007 after calculating the z statistic with sample mean, null value, and SEsubx. That means that if the null hypothesis is true, the probability of oversaing a sample mean as least as large as the sample mean is 0.007. That means we would not often see such a large sample mean.
+
+The smaller the p-value, the stronger the data favor HsubA over Hsub0. 
+
+Two sided hypothesis testing is basically using a HsubA in which a value is actually in between two different p values.
+
 </details>
 
 <details>
   <summary> <b> Chapter 5 - Inference for numerical data </b> </summary>
 <br>
+  
+How do we check for normality in small data sets?
+We must not only examine the data but also where it comes from. Am I confident that outliers are rare?
+
+The t-distribution has thicker tails than normal distribution so it allows for more area past 2 stdevs outisde the mean in both directions. t-distribution has a single parameter- degrees of freedom (df).
+
+Degrees of freedom describe the shape of the t-dist. The larger the df, the more closely the t dist approximates hte normal model.
+
+When to use t-dist
+When observations are independent and nearly normal
+
+df = n - 1
+
+I am actually super familiar with a lot of the content in this book because I have taken 3 statistics courses and numerous quantitative econ courses which use these statistics.
+  
   
   </details>
 
