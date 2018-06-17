@@ -22,7 +22,7 @@
   <a href="https://angelddaz.github.io/bridgetomasters/kanye_barchart.html">Kanye Bar Chart</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/5dayregression.html">5 day Regression Challenge</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/5dayregression.html">5 day Regression Challenge (Not started)</a> 
   </dl>
   
   <summary><b>Python</b></summary>
