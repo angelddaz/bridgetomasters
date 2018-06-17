@@ -474,7 +474,38 @@ I kind of zoomed through this chapter.
   <summary> <b> Chapter 8 - Multiple and Logistic Regression </b> </summary>
 <br>
 
+[Intro to Multiple Regression video and following videos in a playlist](https://www.youtube.com/watch?v=sQpAuyfEYZg&list=PLkIselvEzpM5f1HYzIjFt52SD4izsJ2_I)
 
+I recommend wathcing these four videos while reading this last chapter.
 
+* video1
+Multiple regression has multiple predictors but a single estimated value still
+Adjusted R^2 is (1 - variability of residuals / variability in the outcome (y) )* ( n -1 )/(n - k - 1)
+It accounts for model complexity and accuracy.
+
+* video 2
+Step wise model selection strategies add or delete one variable at a time, as they step through each candidate for predictors.
+two step wise model section strategies:
+backward-selection: includes everything at the beginning, drops largest p value, refits model, and repeats
+forward-selection: adds a variable until cannot find a statistically significant predictor
+
+* video 3
+How to test for regression assumptions
+4 assumptions
+1. residuals are nearly normal
+2. variability of the residuals is nearly constant
+3. residuals are independent
+4. each variable is linearly related to the outcome
+how to test each one?
+1. normal probabiltity plot of the residuals. We look for outliers that would indicate long tails in the dist of residuals
+2. absolute value of residuals against fitted values scatterplot to see if variability is constant
+3. plot of residuals in the order in which they were observed
+4. plot of residual values against each predictor variable
+
+* video 4
+Logistic regression good for when the response variable is binary
+logit transformation = logit(pi) = loge(pi/(1-pi) where pi is psubi
+
+I feel like there wasn't much about logistic regression and more about multiple regression but that's ok. I still have more time to go over logistic regression. Great book.
 
 <details>
