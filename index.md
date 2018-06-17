@@ -36,19 +36,19 @@
 <summary>Book Chapter Summaries</summary>
 <br>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.html">Open Intro Statistics</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.html">Open Intro Statistics (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.html">Think Stats</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.html">Think Stats (In progress)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.html">Intro to Probability</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.html">Intro to Probability (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/islr.html">ISLR</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/islr.html">ISLR (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Bayes</a> 
+  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Bayes (Not started)</a> 
   </dl>
 <br>
 </details>
