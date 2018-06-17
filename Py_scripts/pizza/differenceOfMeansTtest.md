@@ -1,7 +1,7 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 ## Walking through a script I wrote several years ago in which I hand coded a Difference of Means t-test
 
-Here is the original [full script](https://github.com/angelddaz/learning_python/blob/master/t_tests/angel_sam_t_test.py) I wrote almost around 18 months ago (Jan 2017). I had collected 1300 rows from pizza deliveries both my wife and I made and I wanted to test if we had statistically the same tip average, or mean.
+Here is the original [full script](https://github.com/angelddaz/learning_python/blob/master/t_tests/angel_sam_t_test.py) I wrote almost 18 months ago (Jan 2017). I had collected 1300 rows from pizza deliveries both my wife and I made and I wanted to test if we had statistically the same tip average, or mean.
 
 The difference of two means t test section is 5.3 of [Open Intro Statistics](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md), which I did not read before writing the original script.
 
@@ -18,6 +18,7 @@ Thea lternative hypothesis (HA) represents an alternative claim underconsiderati
 ```
 
 H0 : mu_a = mu_s // lines 17 and 18
+
 Ha: mu_a != mu_s 
 
 So, the claim to be tested is that we have two equal tips. This is line with what the textbook outlines. I vaguely remember griefing over whether I was setting up my hypothesis correctly when I first did this.
