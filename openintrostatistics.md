@@ -508,4 +508,4 @@ logit transformation = logit(pi) = loge(pi/(1-pi) where pi is psubi
 
 I feel like there wasn't much about logistic regression and more about multiple regression but that's ok. I still have more time to go over logistic regression. Great book.
 
-<details>
+</details>
