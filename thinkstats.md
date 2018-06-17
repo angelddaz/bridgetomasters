@@ -2,6 +2,7 @@
 
 # My Understanding/Condensation of each [Think Statistics: Exploratory Data Analysis in Python](http://greenteapress.com/wp/think-stats-2e/) Chapter
 
+Github repository of the [book and code](https://github.com/AllenDowney/ThinkStats2)
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
 If you are looking at this with an html at the end of your URL, I highly recommend checking out the [.md version](https://github.com/angelddaz/bridgetomasters/blob/master/thinkstats.md) instead. Most of the markdown formatting goes out the window in the html site.
@@ -10,6 +11,10 @@ If you are looking at this with an html at the end of your URL, I highly recomme
 <details>
   <summary> <b> Chapter 1 - Exploratory data analysis </b> </summary>
 <br>
+
+
+
+
 
 
 </details>
