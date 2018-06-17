@@ -24,8 +24,11 @@
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/5dayregression.html">5 day Regression Challenge</a> 
   </dl>
+  
   <summary><b>Python</b></summary>
-  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Nothing here yet</a>
+  <dl>
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/Py_scripts/pizza/differenceOfMeansTtest.md">Walkthrough of a Pizza Delivery Difference of Means t-test</a>
+  </dl>
   
 </details>
 
