@@ -446,10 +446,35 @@ Lots of bins, buckets, aka group bys, in this chapter. which makes sense, catego
   <summary> <b> Chapter 7 - Introduction to Linear Regression </b> </summary>
 <br>
   
+I have spent more time with linear regression probably than with any other topic in this book.
+Having taken several econometrics type courses, I might not take too many notes here.
+I'll just note of novel things or things worth repeating to me.
+
+Residuals are the distance between each obsevation and the model's line.
+  
+```Correlation: strength of a linear relationship. Denoted by R```
+
+Formula for R
+(1 / (n - 1))(sum for each i until n(( xi - xbar ) / (stdevx)) * ((yi - ybar) / (stdevy)) )
+
+Break it down
+1. (1 / (n - 1 )) // this part basically averages it all out, the minus 1 in the denominator, I remember trying to prove taht it was needed for a sample in a statistics test
+2. sum for each i until n // this part basically means we're going through each observation, each of which has an x and a y value
+3. ((xi - xbar) / stdevx) // This is the residual divided by the sample standard deviation. I'm not sure why this is done but it's done for both x here and y after
+4. ((yi - xbar) / stdevy) // same as step 3 but for y
+
+You times up each iteration of steps 3 and 4, sum them all up, and then times that by step 1
+
+R^2 explains the strength of a linear fit
+
+I kind of zoomed through this chapter.
   </details>
 
 <details>
   <summary> <b> Chapter 8 - Multiple and Logistic Regression </b> </summary>
 <br>
+
+
+
 
 <details>
