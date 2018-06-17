@@ -24,24 +24,79 @@ So, the claim to be tested is that we have two equal tips. This is line with wha
 
 ### A recipe
 I am pretty happy with how I used pandas functions to grab all the ingredients I needed for the t test
-1. 2 averages // lines 28 and 29
-2. 2 standard deviations // lines 31 and 32
-3. 2 variances // lines 34 and 35
-4. 2 sample counts // lines 37 and 38
-5. 1 degrees of freedom // line 40
 
-Then we start mixing them:
-1. Make the first denominator by dividing my variance of tips by sample count // line 44
-2. Make the second denominator by dividing Sam's variance of tips by her sample count // line 45
-3. Adding up both denominators // line 46
-4. Square rooting the denominator // line 47
-5. Making the numerator, which is simply the means subtracted. Remember, that the null value in this case is 0 because we are testing that the two means have no difference. That means that the formula referenced in figure 5.16 page 232 of [Open Intro Statistics](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md)
+* All data  
+
+```python
+aDels = data.loc[data['PersonWhoDelivered']=='Angel'][['Tip']]
+sDels = data.loc[data['PersonWhoDelivered']=='Sammie'][['Tip']]
+``` 
+
+* 2 averages 
+```python
+mu_a = aDels.mean() #Angel Delivery mean = 3.376236
+mu_s = sDels.mean() #Sammie Delivery mean = 3.412869
+```
+
+* 2 standard deviations
+```python
+sigma_a = aDels.std() #Angel stdev = 2.184814
+sigma_s = sDels.std() #Sammie stdev = 2.040795
+
+```
+* 2 variances
+```python
+variance_a = aDels.std() * aDels.std() #Angel variance = 4.773414
+variance_s = sDels.std() * sDels.std() #Sammie variance = 4.164844
+```
+
+* 2 sample counts 
+```python
+n_a = aDels.count() #Angel sample size = 712
+n_s = sDels.count() #Sammie sample size = 589
+```
+
+* 1 degrees of freedom
+```python
+df = n_a + n_s - 2 -1 #n-k-1: degrees of freedom = 1298
+```
+
+### Then we start mixing the ingredient:
+
+1. Make the first denominator by dividing my variance of tips by sample count 
+```python
+den1 = variance_a/n_a #formula chunk: 0.006704
+```
+
+2. Make the second denominator by dividing Sam's variance of tips by her sample count
+```python
+den2 = variance_s/n_s #formula chunk: 0.007071
+```
+
+3. Adding up both denominators
+```python
+den3 = den1+den2      #formula chunk: 0.013775
+```
+4. Square rooting the denominator
+```python
+den = math.sqrt(den3) #denominator value: 0.11736812016136079
+```
 
 
-### Creating our T-statistic and what it means
+5. Making the numerator, which is simply the means subtracted. 
+```python
+num = mu_a - mu_s     #numerator value: -0.036633
+```
+
+### Finally (math-wise), our T-statistic and p-value
 
 Here's something I'm realizing now. The ```den``` variable in line 47 is the Standard error of our two means. We divide the difference between the two means by the standard error to get t_stat value or t-score.
 
+```python
+t_crit = 1.9673
+t_stat = num/den
+pval = 1-stats.t.sf(t_stat, df)
+```
 line 53 is probably the most abstracted line. For lack of a better word, it is essentially a t distribution table lookup with a t score and degrees of freedom. The degrees of freedom could be much smaller, around 500 value, but it doesn't make much of a difference. Instead of doing (n1 + n2 - 2), I could have chosen the smallest of (n1 -1) and (n2 - 1) which would be around 550 if I remember correctly.
 
 So we get the area under the curve which inside the two tails in our two sided test. When I ran the script locally, I get a p value of 0.3775 which means that our means' difference in a t distribution, lies very close to the middle, or a zero value.
