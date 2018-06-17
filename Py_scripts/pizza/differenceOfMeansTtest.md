@@ -1,7 +1,7 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 ## Walking through a script I wrote several years ago in which I hand coded a Difference of Means t-test
 
-Here is the original [full script](https://github.com/angelddaz/learning_python/blob/master/t_tests/angel_sam_t_test.py) I wrote almost two years ago, or so, sometime near the fall of 2016. I had collected 1300 rows from pizza deliveries both my wife and I made and I wanted to test if we had statistically the same tip average, or mean.
+Here is the original [full script](https://github.com/angelddaz/learning_python/blob/master/t_tests/angel_sam_t_test.py) I wrote almost around 18 months ago (Jan 2017). I had collected 1300 rows from pizza deliveries both my wife and I made and I wanted to test if we had statistically the same tip average, or mean.
 
 The difference of two means t test section is 5.3 of [Open Intro Statistics](https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md), which I did not read before writing the original script.
 
