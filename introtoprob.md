@@ -1,12 +1,12 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
-# My Understanding/Condensation of each [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) Chapter
-
-# <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
-
-
 If you are looking at this with an html at the end of your URL, I highly recommend checking out the [.md version](https://github.com/angelddaz/bridgetomasters/blob/master/introtoprob.md) instead. Most of the markdown formatting goes out the window in the html site.
 
+Before I start the chapters, I have noticed a lot to do with distributions and densities. I think this [picture](https://github.com/angelddaz/bridgetomasters/blob/master/Py_scripts/misc/dist_framework.PNG) of distribution frameworks will be very helpful:
+<img src="https://github.com/angelddaz/bridgetomasters/blob/master/Py_scripts/misc/dist_framework.PNG" alt = "Google Form">
+
+
+# My Understanding/Condensation of each [Intro to Probability](https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/amsbook.mac.pdf) Chapter
 
 <details>
   <summary> <b> Chapter 1 - Discrete Probability Distributions </b> </summary>
