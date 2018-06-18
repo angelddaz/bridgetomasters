@@ -12,6 +12,8 @@ Before I start the chapters, I have noticed a lot to do with distributions and d
 <details>
   <summary> <b> Chapter 1 - Discrete Probability Distributions </b> </summary>
 <br>
+Discrete basically means a finite number of possibilities within the context of probability.
+pg.2
 
 
 </details>
