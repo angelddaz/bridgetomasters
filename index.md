@@ -39,7 +39,7 @@
   <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.html">Open Intro Statistics (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.html">Think Stats (In progress)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.html">Think Stats (Finished but not much there)</a> 
   </dl>
   <dl>
   <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.html">Intro to Probability (Not started)</a> 
