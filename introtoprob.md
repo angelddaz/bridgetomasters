@@ -24,6 +24,8 @@ if E = 1
 P(1) = 1/6 = Probability of rolling a 1 on a 6 sided die
 
 basic set operations picture from the book. Very reminiscent of relational algebra in databases. I guess if we can consider sample spaces as databases of their own in a way.
+
+
 <img src="https://github.com/angelddaz/bridgetomasters/blob/master/Py_scripts/misc/basic_set_operations.PNG" alt = "basic set operations">
 
 
