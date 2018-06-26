@@ -60,6 +60,12 @@ an equivalent problem for which he could use counting or combinatorial methods
 
 I'm not totally sure what the above 10 lines mean but will go into more detail as the book continues.
 
+final thing in the chapter:
+```
+both the algorithmic approach and the combinatorial approach share equal billing
+```
+I had to look up equal billing because I am not familiar with this phrase, and it means basically equal importance. You could probably gather from the clues the words give you but one I haven't come across very often so I looked it up just to be sure and to make the book more accessible to first gen folks.
+
 As a side note, I appreciate that this book has less chapters and more details. Think Stats was great as an intro to multiple topics but since I am familiar with a lot of it, programing and statistics, the parts which I am not familiar with I felt like it didn't go into enough detail. I'm having a good time with Open Intro Stats and this book so far, Intro to Prob. Some books just click and others don't through nobody's fault.
 
 </details>
