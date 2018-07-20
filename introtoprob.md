@@ -74,7 +74,20 @@ As a side note, I appreciate that this book has less chapters and more details. 
   <summary> <b> Chapter 2 - Continuous Probability Densities</b> </summary>
 <br>
   
+```summing an uncountable number of real numbers is a tricky business
+```
+Thinking face.emoji
+simulations for how the proportion of success under a curve given an area, (x,y) = ([0,1],[0,1])
+of course you can do this with calculus with an integral but simulation proportions is really interesting. 
 
+```
+different choices of coordinates will lead
+to different assignments of probabilities
+```
+interesting. Most of the time, it's easy to think in x,y cartesian coordinates but other ones exist. especially with circular-y type stuff.
+
+2.2 Continuous Density Functions
+This is basically graphing the simulations in 2.1 it seems like. In smoothed out bar charts, or grabbing some sort of functions from these distributions of the simulations.
 
 </details>
 
@@ -82,14 +95,35 @@ As a side note, I appreciate that this book has less chapters and more details. 
   <summary> <b> Chapter 3 - Combinatorics </b> </summary>
 <br>
 
+3.1 Permutations
+```
+The number of permutations of n increases so rapidly that even to list all permutations of 20 objects is impractical
+```
+3.2 Combination
+n choose j = (factorial of n) / ((factorial of j)((factorial of (n - j)))
+
+```
+Bernoulli trials process is a sequence of n chance experiments such that
+
+1. Each experiment has two possible outcomes, which we may call success and
+failure.
+
+2. The probability p of success on each experiment is the same for each experiment,
+and this probability is not affected by any knowledge of previous
+outcomes. The probability q of failure is given by q = 1 − p.
+```
+3.3 Card Shuffling
+lots of proofs and theorems
 
 
 </details>
 
 
 <details>
-  <summary> <b> Chapter 4 - Distributions and Densities </b> </summary>
+  <summary> <b> Chapter 4 - Conditional Probability </b> </summary>
 <br>
+
+
 
 
 </details>
