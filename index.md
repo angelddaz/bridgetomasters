@@ -36,28 +36,28 @@
 <summary>Book Chapter Summaries</summary>
 <br>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.md">Open Intro Statistics (Finished)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md">Open Intro Statistics (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.md">Think Stats (Finished but not much there)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/thinkstats.md">Think Stats (Finished but not much there)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.md">Intro to Probability (In progress)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/introtoprob.md">Intro to Probability (In progress)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/islr.md">ISLR (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/islr.md">ISLR (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/thinkbayes.md">Think Bayes (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/thinkbayes.md">Think Bayes (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/RforDS.md">R for Data Science (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/RforDS.md">R for Data Science (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/elements_of_statistical_learning.md">Elements of Statistical Learning (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/elements_of_statistical_learning.md">Elements of Statistical Learning (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/ML_python_cookbook.md">Machine Learning Python Cookbook (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/ML_python_cookbook.md">Machine Learning Python Cookbook (Not started)</a> 
   </dl>
 </details>
 <details>
