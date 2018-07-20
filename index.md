@@ -57,7 +57,7 @@
   <a href="https://angelddaz.github.io/bridgetomasters/elements_of_statistical_learning.md">Elements of Statistical Learning (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/ML_python_cookbook.md8">Machine Learning Python Cookbook (Not started)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/ML_python_cookbook.md">Machine Learning Python Cookbook (Not started)</a> 
   </dl>
 </details>
 <details>
