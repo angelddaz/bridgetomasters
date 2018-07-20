@@ -36,21 +36,29 @@
 <summary>Book Chapter Summaries</summary>
 <br>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.html">Open Intro Statistics (Finished)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/openintrostatistics.md">Open Intro Statistics (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.html">Think Stats (Finished but not much there)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/thinkstats.md">Think Stats (Finished but not much there)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.html">Intro to Probability (In progress)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/introtoprob.md">Intro to Probability (In progress)</a> 
   </dl>
   <dl>
-  <a href="https://angelddaz.github.io/bridgetomasters/islr.html">ISLR (Not started)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/islr.md">ISLR (Not started)</a> 
   </dl>
   <dl>
-  <a href="https://getyarn.io/yarn-clip/5c18527b-5a70-4ccc-9c37-f4a557dea328">Think Bayes (Not started)</a> 
+  <a href="https://angelddaz.github.io/bridgetomasters/thinkbayes.md">Think Bayes (Not started)</a> 
   </dl>
-<br>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/RforDS.md">R for Data Science (Not started)</a> 
+  </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/elements_of_statistical_learning.md">Elements of Statistical Learning (Not started)</a> 
+  </dl>
+  <dl>
+  <a href="https://angelddaz.github.io/bridgetomasters/ML_python_cookbook.md8">Machine Learning Python Cookbook (Not started)</a> 
+  </dl>
 </details>
 <details>
 <summary>Recommended Pre-Requisites</summary>
