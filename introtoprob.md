@@ -122,9 +122,21 @@ lots of proofs and theorems
 <details>
   <summary> <b> Chapter 4 - Conditional Probability </b> </summary>
 <br>
+  
+if events E and F are independent then:
+```
+P(E|F) = P(E) and P(F|E) = P(F)
 
+or
 
+at least one of the events has probability 0.
+```
+Another way to check for independence:
+```
+P(E ∩ F) = P(E)P(F) 
+```
 
+page 152 of pdf
 
 </details>
 
