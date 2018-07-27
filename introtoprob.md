@@ -136,13 +136,18 @@ Another way to check for independence:
 P(E ∩ F) = P(E)P(F) 
 ```
 
-page 152 of pdf
+4.2  Continuous Conditional Probability
+looks like conditional probability but with integrals
+
+4.3 Paradoxes
+Decision trees and using them based on how we receive or interpret information.
 
 </details>
 
 <details>
-  <summary> <b> Chapter 5 - Expected Value and Variance </b> </summary>
+  <summary> <b> Chapter 5 - Important Distributions and Densities </b> </summary>
 <br>
+
 
 
 
