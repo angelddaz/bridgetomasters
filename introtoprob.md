@@ -300,7 +300,8 @@ The Central limit Theorem states that when sample size tends to infinity, the sa
   <summary> <b> Chapter 10 - Generation Functions</b> </summary>
 <br>
   
-
+10.1 Generating Functions for Discrete Distributions
+pdf page 375
 
 
 </details>
