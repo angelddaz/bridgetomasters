@@ -137,9 +137,12 @@ P(E ∩ F) = P(E)P(F)
 ```
 
 4.2  Continuous Conditional Probability
+
 looks like conditional probability but with integrals
 
+
 4.3 Paradoxes
+
 Decision trees and using them based on how we receive or interpret information.
 
 </details>
@@ -148,48 +151,162 @@ Decision trees and using them based on how we receive or interpret information.
   <summary> <b> Chapter 5 - Important Distributions and Densities </b> </summary>
 <br>
 
+Negative binomial distribution is like binomial distribution except that the probabilities are calculated with 
+P(X = x) = (x − 1 choose k − 1 ) * p^k * q^(x − k) 
+
+Poisson Distribution
+
+```
+The Poisson distribution arises in many situations. It is safe to say that it is one of
+the three most important discrete probability distributions (the other two being the
+uniform and the binomial distributions).
+```
+
+so this following sentence is the hint that we can deal with a Poisson distribution:
+
+```
+Suppose that we have a situation in which a certain kind of occurrence happens
+at random over a period of time
+```
+
+Hypergeometric Distribution
+
+k is option 1
+N - k is option 2
+n is how many we choose 
+
+this distribution depends on three parameters N, k, and n
+
+P(X = x) = h(N, k, n, x) = ((k choose x) * ( N − k choose n − x ) ) / (N choose n)
+
+```
+This distribution can be generalized to the case where there are more than two types of object
+```
+
+Benford Distribution -- never heard of this distribution before
+```
+distribution comes from the study of leading digits in dataset
+```
+
+
+super interesting. reminds me of the Ben Affleck movie 'The Accountant':
+```
+Mark Nigrini has advocated the use of the Benford distribution as a means
+of testing suspicious financial records such as bookkeeping entries, checks, and tax
+returns. His idea is that if someone were to “make up” numbers in these cases,
+the person would probably produce numbers that are fairly uniformly distributed,
+while if one were to use the actual numbers, the leading digits would roughly follow
+the Benford distribution
+```
+
+5.2 Important Densities
+
+Apparently there's a difference between distributions and densities
+that makes sense. distribution may refer to area taken up and density is the relative amount within that area.
+
+Chi Squared Density:
+```
+method for testing independence of traits
+ ```
+
+The sum of each i where (Observedi - Expectedi) ^ 2 / (Expectedi)
+
+We can plot each of these values for a distrubtion.
+
+The chi-squared test statistic can then be used against a critical value to test a null hypothesis.
+
+Cauchy Density -- never heard of this one
+didn't get this section almost at all
+
+  </details>
+
+<details>
+  <summary> <b> Chapter 6 - Expected Value and Variance </b> </summary>
+<br>
+
+```
+We often refer to the expected value as the mean, and denote E(X) by µ (mu) for short. 
+```
+
+E(X + Y) = E(X) + E(Y)
+
+and if c is any constant
+
+E(c * X) = c * E(X)
+
+Bernoulli Trials -- again
+
+if Ssubn is number of successes in n trials
+then E(Ssubn) = n * p
+
+where p is probability of success
+
+6.2 Variance of Discrete Random Variables
+
+Variance of X = V(X) = E((X − µ)^2) = Sum for each observed x ((x − µ)^2 * m(x) )
+
+where m(x) is probability of the individual x occuring
+
+Standard Deviation is the square root of Variance
+
+6.3 Continuous Random Variables
+
+Continuous just means calculus and integrals to me now
+E(x) = integral of x * f(x) dx
 
 
 
   </details>
 
 <details>
-  <summary> <b> Chapter 6 - Sums of Random Variables </b> </summary>
+  <summary> <b> Chapter 7 - Sums of Independent Random Variables </b> </summary>
 <br>
 
+7.2 Sums of Continuous Random Variables
 
-  </details>
-
-<details>
-  <summary> <b> Chapter 7 - Law of Large Numbers </b> </summary>
-<br>
+I didn't really understand this chapter much at all
 
 
 </details>
 
 <details>
-  <summary> <b> Chapter 8 - Central Limit Theorem </b> </summary>
+  <summary> <b> Chapter 8 - Law of Large Numbers </b> </summary>
+<br>
+  
+What is Chebyshev's inequality? I don't know.
+
+I think Bernoulli uses the law of large numbers as reasoning for fate, that everything in the long run must return to a state of averages or something like that. Philosophical.
+
+
+Didn't really understand much in that chapter. I wonder how this law differs from Central Limit Theorem (CLT)
+```
+The Central limit Theorem states that when sample size tends to infinity, the sample mean will be normally distributed. 
+The Law of Large Number states that when sample size tends to infinity, the sample mean equals to population mean.
+```
+
+</details>
+
+<details>
+  <summary> <b> Chapter 9 - Central Limit Theorem </b> </summary>
+<br>
+
+```
+The Central limit Theorem states that when sample size tends to infinity, the sample mean will be normally distributed. 
+```
+
+</details>
+
+<details>
+  <summary> <b> Chapter 10 - Generation Functions</b> </summary>
 <br>
   
 
-</details>
 
-<details>
-  <summary> <b> Chapter 9 - Generation Functions </b> </summary>
-<br>
-  
 
 </details>
 
 <details>
-  <summary> <b> Chapter 10 - Markov Chains </b> </summary>
-<br>
-  
-
-</details>
-
-<details>
-  <summary> <b> Chapter 11 - Regression </b> </summary>
+  <summary> <b> Chapter 11 - Markov Chains  </b> </summary>
 <br>
 
 </details>
