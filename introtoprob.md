@@ -301,8 +301,24 @@ The Central limit Theorem states that when sample size tends to infinity, the sa
 <br>
   
 10.1 Generating Functions for Discrete Distributions
-pdf page 375
 
+Moment generating functions. what?
+
+Ok Now I understand the purpose of moment generation functions a bit with this grounded example:
+```
+Heads or Tails
+
+Example 10.7 In the coin-tossing game discussed in Example 1.4, we now consider
+the question "When is Peter first in the lead?"
+
+Let Xk describe the outcome of the kth trial in the game
+```
+I wish they would have started with the example.
+
+10.2 Branching Processes
+calculating the extinction of humankind
+
+Possibly the most esoteric and boring chapter of the book
 
 </details>
 
@@ -310,11 +326,53 @@ pdf page 375
   <summary> <b> Chapter 11 - Markov Chains  </b> </summary>
 <br>
 
+The textbook seems to be abandoning the concept of independent trials in this chapter:
+```
+Modern probability theory studies chance processes for which the knowledge
+of previous outcomes influences predictions for future experiments.
+
+...
+
+In this process, the outcome of a given experiment can affect the outcome
+of the next experiment. This type of process is called a Markov chain.
+```
+Interesting. So I'm thinking what's the difference betweeen Markov chain and Bayes, which Google changes to Bayesian Networks.
+
+Here's a [link](https://stats.stackexchange.com/questions/100047/difference-between-bayesian-networks-and-markov-process) which answers some of the questions I have. They also provide a link to a cool [visualized Markov Chains](http://setosa.io/blog/2014/07/26/markov-chains/)
+
+Which explains the following:
+```
+Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state
+```
+
+We have a set of States and each transition (change from one state to another) has a probability usually denoted by psubij
+
+Transition matrix is a grid of these probabilities essentially.
+
+So if psubii = 1.00 that means absorption. Quote from this [pdf](http://www.math.tamu.edu/~kahlig/notes/166/ch-M-3.pdf)
+```
+Definition: A state of a Markov process is called absorbing if once in that state there is no chance
+of leaving that state
+```
+
+Googling definitions or looking for supplementary material has made reading through textbooks so much easier.
+
+11.3 Ergodic Markov Chains
+
+```
+A Markov chain is called an ergodic chain if it is possible to go
+from every state to every state (not necessarily in one move). ✷
+In many books, ergodic Markov chains are called irreducible
+```
+
 </details>
 
 <details>
   <summary> <b> Chapter 12 - Random Walks </b> </summary>
 <br>
+  
+
+
   
 
 </details>
