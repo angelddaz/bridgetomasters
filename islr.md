@@ -1,6 +1,6 @@
 # <a href="https://angelddaz.github.io/bridgetomasters/"> Home </a>
 
-# My Understanding/Condensation of each [ISLR](http://www-bcf.usc.edu/~gareth/ISL/) Chapter
+# My Understanding/Condensation of each [ISLR](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) Chapter
 
 [Extra Videos to supplement my summaries](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
 
@@ -8,6 +8,13 @@
   <summary> <b> Chapter 1 - Introduction </b> </summary>
 <br>
 
+some good encouragement
+```
+While it is important to know what job is performed by each cog, it
+is not necessary to have the skills to construct the machine inside the
+box!
+```
+Easy chapter on purpose.
 
 </details>
 
