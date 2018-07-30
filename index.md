@@ -39,10 +39,10 @@
   <a href="https://github.com/angelddaz/bridgetomasters/blob/master/openintrostatistics.md">Open Intro Statistics (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/thinkstats.md">Think Stats (Finished but not much there)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/thinkstats.md">Think Stats (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/introtoprob.md">Intro to Probability (In progress)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/introtoprob.md">Intro to Probability (Finished)</a> 
   </dl>
   <dl>
   <a href="https://github.com/angelddaz/bridgetomasters/blob/master/islr.md">ISLR (Not started)</a> 
