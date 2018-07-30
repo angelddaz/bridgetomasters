@@ -371,7 +371,7 @@ In many books, ergodic Markov chains are called irreducible
   <summary> <b> Chapter 12 - Random Walks </b> </summary>
 <br>
   
-
+I don't get it.
 
   
 
