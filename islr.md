@@ -21,7 +21,7 @@ Easy chapter on purpose.
 <details>
   <summary> <b> Chapter 2 -  Statistical Learning </b> </summary>
 <br>
-
+pg 29 of the pdf
 
 </details>
 
