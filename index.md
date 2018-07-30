@@ -45,7 +45,7 @@
   <a href="https://github.com/angelddaz/bridgetomasters/blob/master/introtoprob.md">Intro to Probability (Finished)</a> 
   </dl>
   <dl>
-  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/islr.md">ISLR (Not started)</a> 
+  <a href="https://github.com/angelddaz/bridgetomasters/blob/master/islr.md">ISLR (In Progress)</a> 
   </dl>
   <dl>
   <a href="https://github.com/angelddaz/bridgetomasters/blob/master/thinkbayes.md">Think Bayes (Not started)</a> 
