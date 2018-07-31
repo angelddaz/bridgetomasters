@@ -21,7 +21,38 @@ Easy chapter on purpose.
 <details>
   <summary> <b> Chapter 2 -  Statistical Learning </b> </summary>
 <br>
-pg 29 of the pdf
+
+Fundamentals of inference and predictions. Prediction involves errors and models. Inference is translating those numbers into real world implications - often business questions and needs.
+
+Prediction and inference is denoted as f in this book.
+
+```
+Throughout this book, we explore many linear and non-linear approaches
+for estimating f
+```
+
+
+**Parametric Methods:**
+```
+Parametric methods involve a two-step model-based approach.
+
+First, we make an assumption about the functional form, or shape,
+of f. For example, one very simple assumption is that f is linear
+
+After a model has been selected, we need a procedure that uses the
+training data to fit or train the model. 
+
+```
+
+There seems to be a trade off between interpretability of a model and flexibility/Accuracy
+
+```
+In general, as the flexibility of a method increases, its interpretability decreases.
+```
+
+When inference is the main goal, inflexible models which are easy to interpret are probably better. Like OLS regression.
+
+pg 41 of pdf
 
 </details>
 
